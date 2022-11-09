@@ -1,5 +1,5 @@
 
-####  Albert-Ludwigs University Freiburg
+#### Albert-Ludwigs University Freiburg
  
 #### Department of Computer Science
  
