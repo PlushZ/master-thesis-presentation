@@ -24,17 +24,22 @@
 
 ### Table of contents
 
-- <span class="fragment highlight-current-red" style="font-size:40px">**Sequencing technologies**</span>
-    - <span class="fragment highlight-current-red" style="font-size:30px">NGS technologies: Illumina</span>
-    - <span class="fragment highlight-current-red" style="font-size:30px">TGS technologies: Nanopore & PacBio</span>
-- <span class="fragment highlight-current-red" style="font-size:40px">**Information storage**</span>
-    - <span class="fragment highlight-current-red" style="font-size:30px">FASTQ datatype</span>
-    - <span class="fragment highlight-current-red" style="font-size:30px">Phred quality score</span>
-    - <span class="fragment highlight-current-red" style="font-size:30px">SAM/BAM datatype</span>
-- <span class="fragment highlight-current-red" style="font-size:40px">**Applications of sequencing**</span>
-    - <span class="fragment highlight-current-red" style="font-size:30px">Genome assembly</span>
-    - <span class="fragment highlight-current-red" style="font-size:30px">Transcriptomics: gene expression analysis</span>
-    - <span class="fragment highlight-current-red" style="font-size:30px">Epigenetics</span>
+- <span class="fragment highlight-current-red" style="font-size:40px">**Introduction**</span>
+- <span class="fragment highlight-current-red" style="font-size:40px">**Purpose of the thesis**</span>
+    - <span class="fragment highlight-current-red" style="font-size:30px">Motivation</span>
+- <span class="fragment highlight-current-red" style="font-size:40px">**Evaluation of needs**</span>
+- <span class="fragment highlight-current-red" style="font-size:40px">**Methods**</span>
+    - <span class="fragment highlight-current-red" style="font-size:30px">Existing Galaxy workflows</span>
+    - <span class="fragment highlight-current-red" style="font-size:30px">Changes</span>
+- <span class="fragment highlight-current-red" style="font-size:40px">**Results**</span>
+    - <span class="fragment highlight-current-red" style="font-size:30px">Mock dataset</span>
+    - <span class="fragment highlight-current-red" style="font-size:30px">Real datasets</span>
+- <span class="fragment highlight-current-red" style="font-size:40px">**Discussion**</span>
+    - <span class="fragment highlight-current-red" style="font-size:30px">Limitations</span>
+    - <span class="fragment highlight-current-red" style="font-size:30px">Next steps</span>
+    - <span class="fragment highlight-current-red" style="font-size:30px">Implications for future research</span>
+- <span class="fragment highlight-current-red" style="font-size:40px">**Summary**</span>
+- <span class="fragment highlight-current-red" style="font-size:40px">**References**</span>
 
 </div>
 
