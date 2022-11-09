@@ -1,9 +1,16 @@
 
-####  Introduction to big data analysis in bioinformatics WS 22/23
+####  Albert-Ludwigs University Freiburg
+ 
+#### Department of Computer Science
+ 
+#### Bioinformatics Group
 
-### **Concepts in sequencing data analysis**
+##### Master Thesis
 
-<sub><sub>Cristobal Gallardo Alba</sub></sub>
+### **Development and evaluation of Galaxy pipelines for detection of SARS-CoV-2 variants by genomic analysis of wastewater samples**
+
+<sub><sub>Author: Polina Polunina</sub></sub>
+<sub><sub>Advisors: Bérénice Batut, Wolfgang Maier</sub></sub>
 
 ------
 
