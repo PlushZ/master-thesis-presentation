@@ -1,16 +1,16 @@
 
-#### Albert-Ludwigs University Freiburg
+Albert-Ludwigs University Freiburg
  
-#### Department of Computer Science
+Department of Computer Science
  
-#### Bioinformatics Group
+Bioinformatics Group
 
-##### Master Thesis
+<small>Master Thesis</small>
 
 ### **Development and evaluation of Galaxy pipelines for detection of SARS-CoV-2 variants by genomic analysis of wastewater samples**
 
-<sub><sub>Author: Polina Polunina</sub></sub>
-<sub><sub>Advisors: Bérénice Batut, Wolfgang Maier</sub></sub>
+Author: Polina Polunina
+Advisors: Bérénice Batut, Wolfgang Maier
 
 ------
 
@@ -24,22 +24,22 @@
 
 ### Table of contents
 
-- <span class="fragment highlight-current-red" style="font-size:40px">**Introduction**</span>
-- <span class="fragment highlight-current-red" style="font-size:40px">**Purpose of the thesis**</span>
-    - <span class="fragment highlight-current-red" style="font-size:30px">Motivation</span>
-- <span class="fragment highlight-current-red" style="font-size:40px">**Evaluation of needs**</span>
-- <span class="fragment highlight-current-red" style="font-size:40px">**Methods**</span>
-    - <span class="fragment highlight-current-red" style="font-size:30px">Existing Galaxy workflows</span>
-    - <span class="fragment highlight-current-red" style="font-size:30px">Changes</span>
-- <span class="fragment highlight-current-red" style="font-size:40px">**Results**</span>
-    - <span class="fragment highlight-current-red" style="font-size:30px">Mock dataset</span>
-    - <span class="fragment highlight-current-red" style="font-size:30px">Real datasets</span>
-- <span class="fragment highlight-current-red" style="font-size:40px">**Discussion**</span>
-    - <span class="fragment highlight-current-red" style="font-size:30px">Limitations</span>
-    - <span class="fragment highlight-current-red" style="font-size:30px">Next steps</span>
-    - <span class="fragment highlight-current-red" style="font-size:30px">Implications for future research</span>
-- <span class="fragment highlight-current-red" style="font-size:40px">**Summary**</span>
-- <span class="fragment highlight-current-red" style="font-size:40px">**References**</span>
+- <span class="fragment highlight-current-red" style="font-size:20px">**Introduction**</span>
+- <span class="fragment highlight-current-red" style="font-size:20px">**Purpose of the thesis**</span>
+    - <span class="fragment highlight-current-red" style="font-size:15px">Motivation</span>
+- <span class="fragment highlight-current-red" style="font-size:20px">**Evaluation of needs**</span>
+- <span class="fragment highlight-current-red" style="font-size:20px">**Methods**</span>
+    - <span class="fragment highlight-current-red" style="font-size:15px">Existing Galaxy workflows</span>
+    - <span class="fragment highlight-current-red" style="font-size:15px">Changes</span>
+- <span class="fragment highlight-current-red" style="font-size:20px">**Results**</span>
+    - <span class="fragment highlight-current-red" style="font-size:15px">Mock dataset</span>
+    - <span class="fragment highlight-current-red" style="font-size:15px">Real datasets</span>
+- <span class="fragment highlight-current-red" style="font-size:20px">**Discussion**</span>
+    - <span class="fragment highlight-current-red" style="font-size:15px">Limitations</span>
+    - <span class="fragment highlight-current-red" style="font-size:15px">Next steps</span>
+    - <span class="fragment highlight-current-red" style="font-size:15px">Implications for future research</span>
+- <span class="fragment highlight-current-red" style="font-size:20px">**Summary**</span>
+- <span class="fragment highlight-current-red" style="font-size:20px">**References**</span>
 
 </div>
 
