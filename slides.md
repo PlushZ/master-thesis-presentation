@@ -10,7 +10,7 @@ Bioinformatics Group
 ### **Development and evaluation of Galaxy pipelines for detection of SARS-CoV-2 variants by genomic analysis of wastewater samples**
 
 Author: Polina Polunina
-Advisors: Bérénice Batut, Wolfgang Maier
+Advisors: Berenice Batut, Wolfgang Maier
 
 ------
 
