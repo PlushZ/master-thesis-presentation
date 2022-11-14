@@ -1,5 +1,3 @@
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hS5CfP8n_js" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>Albert-Ludwigs University Freiburg</small>
 
 <small>Department of Computer Science</small>
@@ -27,29 +25,31 @@
 ### Table of contents
 
 - <span class="fragment highlight-current-red" style="font-size:30px">**Introduction**</span>
-- <span class="fragment highlight-current-red" style="font-size:30px">**Purpose of the thesis**</span>
-- <span class="fragment highlight-current-red" style="font-size:30px">**Evaluation of needs**</span>
+    - <span class="fragment highlight-current-red" style="font-size:20px">Wastewater surveillance</span>
+    - <span class="fragment highlight-current-red" style="font-size:20px">State-of-the-art</span>
+    - <span class="fragment highlight-current-red" style="font-size:20px">Galaxy?</span>
 - <span class="fragment highlight-current-red" style="font-size:30px">**Methods**</span>
 - <span class="fragment highlight-current-red" style="font-size:30px">**Results**</span>
+    - <span class="fragment highlight-current-red" style="font-size:20px">Mock dataset</span>
+    - <span class="fragment highlight-current-red" style="font-size:20px">Real-world dataset</span>
 - <span class="fragment highlight-current-red" style="font-size:30px">**Discussion**</span>
     - <span class="fragment highlight-current-red" style="font-size:20px">Limitations</span>
     - <span class="fragment highlight-current-red" style="font-size:20px">Next steps</span>
-    - <span class="fragment highlight-current-red" style="font-size:20px">Implications for future research</span>
 - <span class="fragment highlight-current-red" style="font-size:30px">**Summary**</span>
 
 </div>
 
 ---
 
-<span class="menu-title" style="display: none">Sequencing technologies</span>
+<span class="menu-title" style="display: none">Introduction</span>
 
 ## Sequencing technologies
 
 ------
 
-<span class="menu-title" style="display: none">NGS technology: Illumina</span>
+<span class="menu-title" style="display: none">Wastewater surveillance</span>
 
-### NGS technology: Illumina
+### Wastewater surveillance
 
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
