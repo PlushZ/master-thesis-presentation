@@ -14,7 +14,7 @@
 
 <small>Second Examiner: Prof. Dr. Wolfgang R. Hess</small>
 
-<small>Advisors: Dr. Berenice Batut, Dr. Wolfgang Maier</small>
+<small>Advisors: Dr. Bérénice Batut, Dr. Wolfgang Maier</small>
 
 ------
 
