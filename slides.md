@@ -10,7 +10,11 @@
 
 <small>Author: Polina Polunina</small>
 
-<small>Advisors: Berenice Batut, Wolfgang Maier</small>
+<small>Examiner: Prof. Dr. Rolf Backofen</small>
+
+<small>Second Examiner: Prof. Dr. Wolfgang R. Hess</small>
+
+<small>Advisors: Dr. Berenice Batut, Dr. Wolfgang Maier</small>
 
 ------
 
