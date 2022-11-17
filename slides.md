@@ -49,8 +49,8 @@ CHANGE
 
 ## Introduction
 
-<img src="img/intro/nextstrain.png" alt="drawing"/>
-<small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -20%;">Sourse: nextstrain.org</small>
+<img src="img/intro/nextstrain.png" alt="nextstrain" width="600"/>
+<small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -20%;">Source: nextstrain.org</small>
 
 ------
 
