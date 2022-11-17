@@ -142,7 +142,7 @@ Develop pipelines for SARS-CoV-2 wastewater data analysis that is:
 
 </span>
 
-<img class="fragment current-visible" data-fragment-index="0" src="img/intro/tasks.png" alt="drawing" width="1000"/>
+<img class="fragment current-visible" data-fragment-index="0" src="img/intro/tasks.png" alt="drawing" width="600"/>
 </div>
 
 ---
