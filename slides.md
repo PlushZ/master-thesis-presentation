@@ -14,7 +14,7 @@
 
 <small>Second Examiner: Prof. Dr. Wolfgang R. Hess</small>
 
-<small>Advisors: Dr. Berenice Batut, Dr. Wolfgang Maier</small>
+<small>Advisors: Dr. Bérénice Batut, Dr. Wolfgang Maier</small>
 
 ------
 
@@ -50,7 +50,7 @@ CHANGE
 ## Introduction
 
 <img src="img/intro/nextstrain.png" alt="drawing"/>
-<small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -20%;">Sourse: [nextstrain.org](https://nextstrain.org/) </small>
+<small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -20%;">Sourse: nextstrain.org</small>
 
 ------
 
