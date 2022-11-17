@@ -65,8 +65,10 @@ CHANGE
 #### Galaxy effort for clinical surveillance
 
 <div class="r-stack">
-<img class="fragment fade-out" data-fragment-index="0" src="img/intro/galaxy-analysis.jpg" alt="drawing" width="600"/>
+<span class="fragment fade-out" data-fragment-index="0">
+<img src="img/intro/galaxy-analysis.jpg" alt="drawing" width="600"/>
 <small>Source: Maier et al., 2021</small>
+</span>
 <span class="fragment current-visible" data-fragment-index="0">
 <div style="text-align: left">
 
