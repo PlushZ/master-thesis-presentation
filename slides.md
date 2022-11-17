@@ -57,6 +57,80 @@ CHANGE
 
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
+<img src="img/intro/sars-surveillance-bioinf.png" alt="drawing" width="600"/>
+<small>Main steps to be done for bioinformatics step of SARS-CoV-2 surveillance</small>
+</span>
+<span class="fragment" data-fragment-index="0">
+
+#### Galaxy effort
+
+<img src="img/intro/galaxy-analysis.jpg" alt="drawing" width="600"/>
+<small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -1%;">Source: Maier et al., 2021</small>
+
+<span class="fragment" data-fragment-index="0">
+
+#### Galaxy effort
+
+<div style="text-align: left">
+- transparency, accessibility, reproducibility
+- 4 workflows for **clinical** SARS-CoV-2 data surveillance can be repurposed
+- automated bots for regular data analysis
+</div>
+
+</span>
+</div>
+
+------
+
+<span class="menu-title" style="display: none">Wastewater surveillance</span>
+
+### Wastewater surveillance
+
+<div class="r-stack">
+<span class="fragment fade-out" data-fragment-index="0">
+<img src="img/intro/ww-process.png" alt="drawing" width="800"/>
+<small>Clinical surveillance vs Wastewater surveillance</small>
+</span>
+<span class="fragment" data-fragment-index="0">
+
+#### Galaxy effort
+
+<div style="text-align: left">
+**Pros**
+- variant detection 2 weeks sooner vs clinical
+- detection in sewage even when SARS-CoV-2 prevalence is low
+- more economical
+- can cover 'seqiencing deserts'
+
+**Cons**
+- less accurate detection vs clinical testing
+- data are anonymized
+- difficult to quantify the number of infected people
+- cannot show completely unbiased picture because of population mobility
+</div>
+
+</span>
+</div>
+
+---
+
+<!--
+<span class="menu-title" style="display: none">Introduction</span>
+
+## Introduction
+
+<img src="img/intro/nextstrain_phylo.png" alt="nextstrain"/>
+<small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -1%;">Source: nextstrain.org</small>
+
+------
+
+<span class="menu-title" style="display: none">SARS-CoV-2 surveillance</span>
+
+<div class="r-stack">
+
+### SARS-CoV-2 surveillance
+
+<span class="fragment fade-out" data-fragment-index="0">
 <img src="img/intro/sars-surveillance-bioinf.png" alt="sars-surveillance-bioinf" width="600"/>
 <small>Main steps to be done for bioinformatics step of SARS-CoV-2 surveillance</small>
 </span>
@@ -65,7 +139,7 @@ CHANGE
 #### Galaxy effort
 
 <div class="r-stack">
-<img class="fragment fade-out" src="img/intro/galaxy-analysis.jpg" alt="galaxy-analysis"/>
+<img class="fragment fade-out" src="img/intro/galaxy-analysis.jpg" alt="galaxy-analysis" width="400"/>
 <small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -1%;">Source: Maier et al., 2021</small>
 </div>
 
@@ -114,9 +188,9 @@ CHANGE
 
 </span>
 </div>
+-->
 
 ------
-
 <span class="menu-title" style="display: none">TGS technologies: PacBio</span>
 
 ### TGS technologies: PacBio
