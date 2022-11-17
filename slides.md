@@ -64,38 +64,44 @@ CHANGE
 
 #### Galaxy effort
 
-<img class="fragment fade-out" src="img/intro/galaxy-analysis.jpg" alt="galaxy-analysis" width="800"/>
+<div class="r-stack">
+<img class="fragment fade-out" src="img/intro/galaxy-analysis.jpg" alt="galaxy-analysis"/>
 <small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -1%;">Source: Maier et al., 2021</small>
+</div>
 
 #### Galaxy effort
 
+<div class="r-stack">
 - transparency, accessibility, reproducibility
 - 4 workflows for **clinical** SARS-CoV-2 data surveillance can be repurposed
 - automated bots for regular data analysis
+</div>
 
 </span>
 </div>
 
 ------
 
-<span class="menu-title" style="display: none">Wastewater surveillance of SARS-CoV-2</span>
+<span class="menu-title" style="display: none">Wastewater surveillance</span>
 
-### Wastewater surveillance of SARS-CoV-2
+### Wastewater surveillance
 
-<div class="r-stack">
-<span class="fragment fade-out" data-fragment-index="0">
+------
 
 #### Clinical vs Wastewater surveillance
 
+<div class="r-stack">
+<span class="fragment fade-out" data-fragment-index="0">
 <img src="img/intro/ww-process.png" alt="ww-process" width="1000"/>
 </span>
 <span class="fragment" data-fragment-index="0">
 
-#### Pros and cons of wastewater surveillance of SARS-CoV-2
+#### Pros and cons
 
+<div class="r-stack">
 **Pros**
 - variant detection 2 weeks sooner vs clinical
-- detection in sewage even when COVID-19 prevalence is low
+- detection in sewage even when SARS-CoV-2 prevalence is low
 - more economical
 - can cover 'seqiencing deserts'
 
@@ -104,6 +110,7 @@ CHANGE
 - data are anonymized
 - difficult to quantify the number of infected people
 - cannot show completely unbiased picture because of population mobility
+</div>
 
 </span>
 </div>
