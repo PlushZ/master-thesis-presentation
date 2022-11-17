@@ -113,20 +113,40 @@ CHANGE
 
 ------
 
-<span class="menu-title" style="display: none">TGS technologies: PacBio</span>
+<span class="menu-title" style="display: none">State-of-the-art</span>
 
-### TGS technologies: PacBio
+### State-of-the-art
 
-<img src="img/pacbio.png" alt="drawing" width="750"/>
-<small>Average read length between 20 kb and 30 kb. Low error rate (99.9%).</small>
-
----
-
-<span class="menu-title" style="display: none">Information storage</span>
-
-## Information storage
+<div class="r-stack">
+<img class="fragment fade-out" data-fragment-index="0" src="img/intro/prior-tools.png" alt="drawing" width="1000"/>
+<img class="fragment current-visible" data-fragment-index="0" src="img/intro/prior-pipelines.png" alt="drawing" width="1000"/>
+</div>
 
 ------
+
+<span class="menu-title" style="display: none">Aim of the thesis</span>
+
+### Aim of the thesis
+
+<div class="r-stack">
+<span class="fragment fade-out" data-fragment-index="0">
+<small>
+
+Develop and evaluate Galaxy pipelines for detection of SARS-CoV-2 variants in wastewater samples which provide data analysis that is:
+
+- complete
+- accessible
+- reproducible
+- transparent
+- regular
+
+</small>
+</span>
+
+<img class="fragment current-visible" data-fragment-index="0" src="img/intro/tasks.png" alt="drawing" width="1000"/>
+</div>
+
+---
 
 <span class="menu-title" style="display: none">File formats: FASTQ</span>
 
