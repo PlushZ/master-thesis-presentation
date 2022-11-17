@@ -89,7 +89,7 @@ CHANGE
 
 <div class="r-stack">
 <img class="fragment fade-out" data-fragment-index="0" src="img/intro/ww-process.png" alt="drawing" width="1000"/>
-<span class="fragment fade-out" data-fragment-index="0">
+<span class="fragment current-visible" data-fragment-index="0">
 <div style="text-align: left">
 <small>
 
