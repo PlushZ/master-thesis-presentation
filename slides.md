@@ -133,17 +133,17 @@ CHANGE
 <div style="text-align: left">
 
 Develop pipelines for SARS-CoV-2 wastewater data analysis that is:
-
 - complete
 - accessible
 - reproducible
 - transparent
 - regular
 
+</div>
 </span>
 
 <img class="fragment current-visible" data-fragment-index="0" src="img/intro/tasks.png" alt="drawing" width="600"/>
-</div>
+
 
 ---
 
