@@ -67,7 +67,7 @@ CHANGE
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
 <img src="img/intro/galaxy-analysis.jpg" alt="drawing" width="600"/>
-<small>Source: Maier et al., 2021</small>
+<small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -1%;">Source: Maier et al., 2021</small>
 </span>
 <span class="fragment current-visible" data-fragment-index="0">
 <div style="text-align: left">
