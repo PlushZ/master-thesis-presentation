@@ -130,9 +130,9 @@ CHANGE
 
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
-<small>
+<div style="text-align: left">
 
-Develop and evaluate Galaxy pipelines for detection of SARS-CoV-2 variants in wastewater samples which provide data analysis that is:
+Develop pipelines for SARS-CoV-2 wastewater data analysis that is:
 
 - complete
 - accessible
@@ -140,7 +140,6 @@ Develop and evaluate Galaxy pipelines for detection of SARS-CoV-2 variants in wa
 - transparent
 - regular
 
-</small>
 </span>
 
 <img class="fragment current-visible" data-fragment-index="0" src="img/intro/tasks.png" alt="drawing" width="1000"/>
