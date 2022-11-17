@@ -27,7 +27,7 @@
 <div style="text-align: left">
 
 ### Table of contents
-
+CHANGE
 - <span class="fragment highlight-current-red" style="font-size:30px">**Introduction**</span>
     - <span class="fragment highlight-current-red" style="font-size:20px">Wastewater surveillance</span>
     - <span class="fragment highlight-current-red" style="font-size:20px">State-of-the-art</span>
@@ -47,13 +47,16 @@
 
 <span class="menu-title" style="display: none">Introduction</span>
 
-## Sequencing technologies
+## Introduction
+
+<img src="img/intro/nextstrain.png" alt="drawing"/>
+<small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -20%;">Sourse: [nextstrain.org](https://nextstrain.org/) </small>
 
 ------
 
-<span class="menu-title" style="display: none">Wastewater surveillance</span>
+<span class="menu-title" style="display: none">SARS-CoV-2 surveillance</span>
 
-### Wastewater surveillance
+### SARS-CoV-2 surveillance
 
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
