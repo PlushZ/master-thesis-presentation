@@ -55,27 +55,25 @@ CHANGE
 
 ### SARS-CoV-2 surveillance
 
-<div class="r-stack">
-<span class="fragment fade-out" data-fragment-index="0">
 <img src="img/intro/sars-surveillance-bioinf.png" alt="drawing" width="600"/>
 <small>Main steps to be done for bioinformatics step of SARS-CoV-2 surveillance</small>
-</span>
-<span class="fragment" data-fragment-index="0">
 
-#### Galaxy effort
+------
 
-<img src="img/intro/galaxy-analysis.jpg" alt="drawing" width="600"/>
+<span class="menu-title" style="display: none">Galaxy effort</span>
+
+#### Galaxy effort for clinical surveillance
+
+<div class="r-stack">
+<img class="fragment fade-out" data-fragment-index="0" src="img/intro/galaxy-analysis.jpg" alt="drawing" width="600"/>
 <small>Source: Maier et al., 2021</small>
-
-<span class="fragment" data-fragment-index="0">
-
+<span class="fragment current-visible" data-fragment-index="0">
 <div style="text-align: left">
-
-#### Galaxy effort
 
 - transparency, accessibility, reproducibility
 - 4 workflows for **clinical** SARS-CoV-2 data surveillance can be repurposed
 - automated bots for regular data analysis
+
 </div>
 
 </span>
@@ -112,6 +110,7 @@ CHANGE
 </div>
 
 ------
+
 <span class="menu-title" style="display: none">TGS technologies: PacBio</span>
 
 ### TGS technologies: PacBio
