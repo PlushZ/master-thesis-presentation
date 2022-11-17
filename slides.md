@@ -88,15 +88,10 @@ CHANGE
 ### Wastewater surveillance
 
 <div class="r-stack">
+<img class="fragment fade-out" data-fragment-index="0" src="img/intro/ww-process.png" alt="drawing" width="1000"/>
 <span class="fragment fade-out" data-fragment-index="0">
-<img src="img/intro/ww-process.png" alt="drawing" width="800"/>
-<small>Clinical surveillance vs Wastewater surveillance</small>
-</span>
-<span class="fragment" data-fragment-index="0">
-
-#### Galaxy effort
-
 <div style="text-align: left">
+<small>
 
 **Pros**
 - variant detection 2 weeks sooner vs clinical
@@ -109,6 +104,8 @@ CHANGE
 - data are anonymized
 - difficult to quantify the number of infected people
 - cannot show completely unbiased picture because of population mobility
+
+</small>
 </div>
 
 </span>
