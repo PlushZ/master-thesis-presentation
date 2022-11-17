@@ -57,36 +57,53 @@ CHANGE
 
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
-<img src="https://www.intechopen.com/media/chapter/49419/media/image2.png" alt="drawing" width="600"/>
-<small>Reads lengths between 50 and 300 bp. Low error rate, between 1% and 2.5%.</small>
+<img src="img/intro/sars-surveillance-bioinf.png" alt="sars-surveillance-bioinf" width="600"/>
+<small>Main steps to be done for bioinformatics step of SARS-CoV-2 surveillance</small>
 </span>
 <span class="fragment" data-fragment-index="0">
 
-#### Base calling
+#### Galaxy effort
 
-<div class="r-stack">
-<img class="fragment fade-out" data-fragment-index="1" src="img/base_calling_01.png" alt="drawing" width="800"/>
-<img class="fragment current-visible" data-fragment-index="1" src="img/base_calling_02.png" alt="drawing" width="1000"/>
-</div>
+<img class="fragment fade-out" src="img/intro/galaxy-analysis.jpg" alt="galaxy-analysis" width="800"/>
+<small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -1%;">Source: Maier et al., 2021</small>
+
+#### Galaxy effort
+
+- transparency, accessibility, reproducibility
+- 4 workflows for **clinical** SARS-CoV-2 data surveillance can be repurposed
+- automated bots for regular data analysis
+
 </span>
 </div>
 
 ------
 
-<span class="menu-title" style="display: none">TGS technology: Oxford Nanopore</span>
+<span class="menu-title" style="display: none">Wastewater surveillance of SARS-CoV-2</span>
 
-### TGS technology: Oxford Nanopore
+### Wastewater surveillance of SARS-CoV-2
 
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
-<img src="img/oxford_nanopore.jpg" alt="drawing" width="1000"/>
-<small>More than two million DNA bases in one continuous sequence has been reported. <br>Hight error rate, between 7% and 14%.</small>
+
+#### Clinical vs Wastewater surveillance
+
+<img src="img/intro/ww-process.png" alt="ww-process" width="1000"/>
 </span>
 <span class="fragment" data-fragment-index="0">
 
-#### Base calling
+#### Pros and cons of wastewater surveillance of SARS-CoV-2
 
-<img src="img/nanopore_basecalling.jpg" alt="drawing" width="1000"/>
+**Pros**
+- variant detection 2 weeks sooner vs clinical
+- detection in sewage even when COVID-19 prevalence is low
+- more economical
+- can cover 'seqiencing deserts'
+
+**Cons**
+- less accurate detection vs clinical testing
+- data are anonymized
+- difficult to quantify the number of infected people
+- cannot show completely unbiased picture because of population mobility
 
 </span>
 </div>
