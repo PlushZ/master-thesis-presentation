@@ -49,7 +49,7 @@ CHANGE
 
 ## Introduction
 
-<img src="img/intro/nextstrain.png" alt="nextstrain" width="3000"/>
+<img src="img/intro/nextstrain_phylo.png" alt="nextstrain"/>
 <small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -20%;">Source: nextstrain.org</small>
 
 ------
