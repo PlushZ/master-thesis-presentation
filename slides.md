@@ -16,10 +16,6 @@
 
 <small>Advisors: Dr. Berenice Batut, Dr. Wolfgang Maier</small>
 
-------
-
-<img src="img/no_phone.jpg" alt="drawing" width="600"/>
-
 ---
 
 <span class="menu-title" style="display: none">Table of contents</span>
@@ -29,9 +25,10 @@
 ### Table of contents
 CHANGE
 - <span style="font-size:30px">**Introduction**</span>
+    - <span style="font-size:20px">SARS-CoV-2 surveillance</span>
+    - <span style="font-size:20px">Galaxy?</span>
     - <span style="font-size:20px">Wastewater surveillance</span>
     - <span style="font-size:20px">State-of-the-art</span>
-    - <span style="font-size:20px">Galaxy?</span>
 - <span style="font-size:30px">**Methods**</span>
 - <span style="font-size:30px">**Results**</span>
     - <span style="font-size:20px">Mock dataset</span>
