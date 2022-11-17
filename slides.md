@@ -14,7 +14,7 @@
 
 <small>Second Examiner: Prof. Dr. Wolfgang R. Hess</small>
 
-<small>Advisors: Dr. Bérénice Batut, Dr. Wolfgang Maier</small>
+<small>Advisors: Dr. Berenice Batut, Dr. Wolfgang Maier</small>
 
 ------
 
@@ -28,18 +28,18 @@
 
 ### Table of contents
 CHANGE
-- <span class="fragment highlight-current-red" style="font-size:30px">**Introduction**</span>
-    - <span class="fragment highlight-current-red" style="font-size:20px">Wastewater surveillance</span>
-    - <span class="fragment highlight-current-red" style="font-size:20px">State-of-the-art</span>
-    - <span class="fragment highlight-current-red" style="font-size:20px">Galaxy?</span>
-- <span class="fragment highlight-current-red" style="font-size:30px">**Methods**</span>
-- <span class="fragment highlight-current-red" style="font-size:30px">**Results**</span>
-    - <span class="fragment highlight-current-red" style="font-size:20px">Mock dataset</span>
-    - <span class="fragment highlight-current-red" style="font-size:20px">Real-world dataset</span>
-- <span class="fragment highlight-current-red" style="font-size:30px">**Discussion**</span>
-    - <span class="fragment highlight-current-red" style="font-size:20px">Limitations</span>
-    - <span class="fragment highlight-current-red" style="font-size:20px">Next steps</span>
-- <span class="fragment highlight-current-red" style="font-size:30px">**Summary**</span>
+- <span style="font-size:30px">**Introduction**</span>
+    - <span style="font-size:20px">Wastewater surveillance</span>
+    - <span style="font-size:20px">State-of-the-art</span>
+    - <span style="font-size:20px">Galaxy?</span>
+- <span style="font-size:30px">**Methods**</span>
+- <span style="font-size:30px">**Results**</span>
+    - <span style="font-size:20px">Mock dataset</span>
+    - <span style="font-size:20px">Real-world dataset</span>
+- <span style="font-size:30px">**Discussion**</span>
+    - <span style="font-size:20px">Limitations</span>
+    - <span style="font-size:20px">Next steps</span>
+- <span style="font-size:30px">**Summary**</span>
 
 </div>
 
@@ -49,7 +49,7 @@ CHANGE
 
 ## Introduction
 
-<img src="img/intro/nextstrain.png" alt="nextstrain" width="600"/>
+<img src="img/intro/nextstrain.png" alt="nextstrain" width="1500"/>
 <small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -20%;">Source: nextstrain.org</small>
 
 ------
