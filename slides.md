@@ -55,8 +55,15 @@ CHANGE
 
 ### SARS-CoV-2 surveillance
 
-<img src="img/intro/sars-surveillance-bioinf.png" alt="drawing" width="600"/>
-<small>Main steps to be done for bioinformatics step of SARS-CoV-2 surveillance</small>
+<div class="r-stack">
+<img class="fragment fade-out" data-fragment-index="0" src="img/intro/sars-surveillance-bioinf.png" alt="drawing" width="800"/>
+<img class="fragment fade-out" data-fragment-index="0" src="img/intro/sars-surveillance-bioinf-highlight.png" alt="drawing" width="800"/>
+<span class="fragment current-visible" data-fragment-index="0">
+<img src="img/intro/sars-surveillance-bioinf-last.png" alt="Process diagram with bioinf steps for sars surveillance" width="800"/>
+<small>Main steps to be done for bioinformatics of SARS-CoV-2 surveillance</small>
+</span>
+
+</div>
 
 ------
 
@@ -118,8 +125,8 @@ CHANGE
 ### State-of-the-art
 
 <div class="r-stack">
-<img class="fragment fade-out" data-fragment-index="0" src="img/intro/prior-tools.png" alt="drawing" width="1000"/>
-<img class="fragment current-visible" data-fragment-index="0" src="img/intro/prior-pipelines.png" alt="drawing" width="1000"/>
+<img class="fragment fade-out" data-fragment-index="0" src="img/intro/prior-tools.png" alt="Simplified table with state of the art individual tools" width="1000"/>
+<img class="fragment current-visible" data-fragment-index="0" src="img/intro/prior-pipelines.png" alt="Simplified table with state of the art standalone pipelines" width="1000"/>
 </div>
 
 ------
@@ -147,9 +154,9 @@ Develop pipelines for SARS-CoV-2 wastewater data analysis that is:
 
 ---
 
-<span class="menu-title" style="display: none">File formats: FASTQ</span>
+<span class="menu-title" style="display: none">Methods</span>
 
-### Information storage: FASTQ datatype
+### Methods
 
 <img src="img/FASTQ_format.png" alt="drawing"/>
 
