@@ -163,7 +163,40 @@ Develop pipelines for SARS-CoV-2 wastewater data analysis that is:
 
 ### Methods
 
-<img src="img/FASTQ_format.png" alt="drawing"/>
+<div class="r-stack">
+<span class="fragment fade-out" data-fragment-index="0">
+<div style="text-align: left">
+
+2 workflows:
+- metatranscriptomic-illumina
+- ampliconic-illumina
+
+2 branches:
+- Freyja-based
+- COJAC-based
+
+Extra steps:
+- decontamination step
+- taxonomic analysis
+
+</div>
+</span>
+<span class="fragment current-visible" data-fragment-index="0">
+<img src="img/methods/methods-ampliconic.png" alt="drawing" width="800"/>
+</span>
+</span>
+<span class="fragment">
+<img src="img/methods/methods-metatranscriptomic.png" alt="drawing" width="800"/>
+</span>
+
+</div>
+
+Note:
+- Galaxy wfs showed decent results for clinical SARS=CoV-2 data surveillance and was based on Galaxy that can assure transparency, reproducibility and availability as well as regular analysis tools (bots) -> repurposing existing galaxy wfs
+- First: evaluation of needs showed that the most of  available real-world data are extracted with ampliconic and metatranscriptomic approaches with Illumina sequencing methods ->
+- focus on 2 wfs: illumina-ampliconic + illumina-metatranscriptomic
+- Freyja and COJAC tools were chosen to be implemented into Galaxy wfs -> there were 2 wrappers created with Planemo
+- 2 branches were created: freyja-based and cojac-based that can be run simultaneously to get both results
 
 ------
 
