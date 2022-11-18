@@ -56,9 +56,14 @@ CHANGE
 ### SARS-CoV-2 surveillance
 
 <div class="r-stack">
-<img class="fragment fade-out" data-fragment-index="0" src="img/intro/sars-surveillance-bioinf.png" alt="drawing" width="800"/>
-<img class="fragment fade-out" data-fragment-index="0" src="img/intro/sars-surveillance-bioinf-highlight.png" alt="drawing" width="800"/>
+<span class="fragment fade-out" data-fragment-index="0">
+<img src="img/intro/sars-surveillance-bioinf.png" alt="drawing" width="800"/>
+</span>
 <span class="fragment current-visible" data-fragment-index="0">
+<img src="img/intro/sars-surveillance-bioinf-highlight.png" alt="drawing" width="800"/>
+</span>
+</span>
+<span class="fragment">
 <img src="img/intro/sars-surveillance-bioinf-last.png" alt="Process diagram with bioinf steps for sars surveillance" width="800"/>
 <small>Main steps to be done for bioinformatics of SARS-CoV-2 surveillance</small>
 </span>
