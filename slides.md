@@ -166,8 +166,6 @@ Develop pipelines for SARS-CoV-2 wastewater data analysis that is:
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
 <div style="text-align: left">
-<small>
-
 2 workflows:
 - metatranscriptomic-illumina
 - ampliconic-illumina
@@ -179,21 +177,13 @@ Develop pipelines for SARS-CoV-2 wastewater data analysis that is:
 Extra steps:
 - decontamination step
 - taxonomic analysis
-
-</small>
 </div>
 </span>
 <span class="fragment current-visible" data-fragment-index="0">
-
-##### Workflow for Ampliconic Illumina SARS-CoV-2 wastewater surveillance
-
 <img src="img/methods/methods-ampliconic.png" alt="drawing" width="1000"/>
 </span>
 </span>
 <span class="fragment">
-
-##### Workflow for Metatranscriptomic Illumina SARS-CoV-2 wastewater surveillance
-
 <img src="img/methods/methods-metatranscriptomic.png" alt="drawing" width="1000"/>
 </span>
 
