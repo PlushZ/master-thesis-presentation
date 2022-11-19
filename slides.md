@@ -199,78 +199,77 @@ Note:
 
 ------
 
-<span class="menu-title" style="display: none">File formats: Phred score</span>
+<span class="menu-title" style="display: none">Datasets</span>
 
-### Information storage: Phred quality score
-
-<div class="r-stack">
-<span class="fragment fade-out" data-fragment-index="0">
-
-<pre><code data-trim data-noescape >
-@ERR4760040.1 MN00415:74:FREIBURG:1
-TATAGCTCGCAAATCGTATCAGCAGATGTAATCAGGTAATGAAGTAGTTCTAGTTCTAGTTCTA
-+
-&%%)'/5516:;-,*&,)+1.-3(+-)%&+623196366-+-')*029==*029==*029==*0
-</code></pre>
+### Datasets
 
 <div style="text-align: left">
 
-Phred quality score is used to indicate the measure of base quality in DNA/RNA sequencing.<br>
-
-</div>
-
-$$
-Q = -10\log_{10}p \rightarrow p = 10^{\frac{-Q}{10}}
-$$
-
-<br><small>*p: error probability associated with any given basecall*</small><br>
-<small>*Q: quality score, encoded in ASCII characters*</small>
-
-</span>
-<span class="fragment current-visible" data-fragment-index="0">
-
-<img src="img/per_base_quality_02.png" alt="drawing"  width="700"/>
-
-</span>
-<span class="fragment">
-
-<img src="img/per_base_quality.png" alt="drawing"  width="700"/>
-
-</span>
+Workflows were tested on:
+- mock dataset
+- real-world dataset
 </div>
 
 ------
 
-<span class="menu-title" style="display: none">Information storage: SAM/BAM datatype</span>
+<span class="menu-title" style="display: none">Mock dataset</span>
 
-### Information storage
-#### SAM/BAM datatype
+### Mock dataset
 
-<br>
+<img src="img/methods/table-mock-data.png" alt="table" width="800"/>
 
-<img src="img/sam.png" alt="drawing"/>
+Note:
+- Generation of mock dataset: Delta, BA.1, BA.2, asa well as synthetic lineage; Single lineage vs Two lineages
+- Comparison Freyja, COJAC, and Lineagespot results with expected results
+
+------
+
+<span class="menu-title" style="display: none">Real-world dataset</span>
+
+### Real-world dataset
+
+<img src="img/methods/table-real-data.png" alt="table" width="800"/>
+
+Note:
+- In order to provide a fairly comprehensive analysis, real-world datasets for experiments in this thesis were selected in such a way that they cover a variety of locations in the world and different time points of collecting samples. 
+- That is why the choice of my thesis fell on the four datasets: 
+- i) one dataset from California where the samples were collected in 2020 at a wastewater interceptor; 
+- ii) a dataset from the UK, with data collected in sewage across six major urban centers in the UK (with a total population equivalent of 3 million) around the same time period (late spring - early summer of 2020) as the previous dataset in order to show different proportions of different variants of the virus
+- iii) a dataset from wastewater treatment facilities across Ontario, Canada collected by Canadian Research Institute for Food Safety, which is interesting to analyze because it contains one of the most recent datasets, the last sample was published in June of 2022;
+- iv) a dataset from the US collected by the FDA Center for Food Safety and Applied Nutrition, one of the most extensive dataset with more than 340 samples already and regularly new samples are being added (last samples being from October of 2022). This dataset would be interesting to connect to Galaxy bots for regilar analysis
 
 ---
 
-<span class="menu-title" style="display: none">Applications of sequencing technologies</span>
+<span class="menu-title" style="display: none">Results</span>
 
-## Applications of sequencing technologies
+## Results
 
 ------
 
-<span class="menu-title" style="display: none">Genome assembly</span>
+<span class="menu-title" style="display: none">Results on mock dataset</span>
 
-### Genome assembly
+### Results on mock dataset
+#### Single lineage expected
 
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
-<img src="img/dna_structure.jpg" alt="drawing" width="1000"/>
-<p style="font-size:14px;">Source: https://www.genome.gov</p>    
+<img src="img/results/singlin-num-bars.png" alt="drawing" width="1000"/>
 </span>
-<span class="fragment" data-fragment-index="0">
-<img src="img/genome_assembly.png" alt="drawing" width="1000"/>
+<span class="fragment current-visible" data-fragment-index="0">
+<img src="img/results/venn-singlin.png" alt="drawing" width="800"/>
+</span>
+</span>
+<span class="fragment">
+<img src="img/results/dist-singlin-fr-co.png" alt="drawing"/>
+</span>
+<span class="fragment">
+<img src="img/results/pc-singlin.png" alt="drawing"/>
 </span>
 </div>
+
+Note:
+- Distplot: distribution of the proportion of lineage detected by Freyja and COJAC among samples in the Single lineage group was plotted. Looking at fig of distribution, I conclude that for single lineage detection, the results of lineage proportion from COJAC and Freyja are from 0.9 to 1.
+- However, some differences between Freyja and COJAC results are observed. Freyja showed a lower proportion of expected lineage, while for COJAC the proportion tends to 1 which is expected. Thus, we can guess that COJAC results for the single lineage group are closer to what was expected.
 
 ------
 
