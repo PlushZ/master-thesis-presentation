@@ -216,7 +216,7 @@ Workflows were tested on:
 
 ### Mock dataset
 
-<img src="img/methods/table-rmock-data.png" alt="table" width="800"/>
+<img src="img/methods/table-rmock-data.png" alt="table" width="600"/>
 
 Note:
 - Generation of mock dataset: Delta, BA.1, BA.2, asa well as synthetic lineage; Single lineage vs Two lineages
@@ -253,14 +253,14 @@ Note:
 
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
-<img src="img/results/singlin-num-bars.png" alt="drawing" width="1000"/>
+<img src="img/results/singlin-num-bars.png" alt="drawing" width="600"/>
 </span>
 <span class="fragment current-visible" data-fragment-index="0">
-<img src="img/results/venn-singlin.png" alt="drawing" width="800"/>
+<img src="img/results/venn-singlin.png" alt="drawing" width="600"/>
 </span>
 </span>
 <span class="fragment">
-<img src="img/results/dist-singlin-fr-co.png" alt="drawing"/>
+<img src="img/results/dist-singlin-fr-co.png" alt="drawing" width="600"/>
 </span>
 </div>
 
