@@ -253,20 +253,29 @@ Note:
 
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
-<img src="img/results/singlin-num-bars.png" alt="drawing" width="600"/>
+<img src="img/results/singlin-bar-venn.png" alt="drawing" width="600"/>
 </span>
 <span class="fragment current-visible" data-fragment-index="0">
-<img src="img/results/venn-singlin.png" alt="drawing" width="600"/>
+<img src="img/results/dist-singlin-fr-co.png" alt="drawing" width="600"/>
 </span>
 </span>
 <span class="fragment">
-<img src="img/results/dist-singlin-fr-co.png" alt="drawing" width="600"/>
+<img src="img/results/pc-singlin.png" alt="drawing" width="400"/>
 </span>
 </div>
 
 Note:
 - Distplot: distribution of the proportion of lineage detected by Freyja and COJAC among samples in the Single lineage group was plotted. Looking at fig of distribution, I conclude that for single lineage detection, the results of lineage proportion from COJAC and Freyja are from 0.9 to 1.
 - However, some differences between Freyja and COJAC results are observed. Freyja showed a lower proportion of expected lineage, while for COJAC the proportion tends to 1 which is expected. Thus, we can guess that COJAC results for the single lineage group are closer to what was expected.
+
+------
+
+<span class="menu-title" style="display: none">Results on mock dataset</span>
+
+### Results on mock dataset
+#### Two lineages expected
+
+<img src="img/results/twolin-num-bars.png" alt="drawing" width="600"/>
 
 ------
 
