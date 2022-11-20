@@ -47,11 +47,12 @@
 <span class="fragment fade-out" data-fragment-index="0">
 <small>SARS-CoV-2 evolution</small>
 <img src="img/intro/nextstrain_phylo2.png" alt="nextstrain"/>
-<small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -1%;">Source: nextstrain.org</small>
+<small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -0.5%;">Source: nextstrain.org</small>
 </span>
 <span class="fragment current-visible" data-fragment-index="0">
 <small>SARS-CoV-2 geography</small>
 <img src="img/intro/nextstrain_geo.png" alt="nextstrain"/>
+<small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -0.5%;">Source: nextstrain.org</small>
 </span>
 </div>
 
@@ -84,6 +85,16 @@ Note:
 </span>
 
 </div>
+
+Note:
+- 1 
+- A variety of surveillance techniques are available for SARS-CoV-2. Clinical testing is one of the most potent and widespread method. 
+- Here is a simplified process that raughly represents sars-cov-2 surveillance. Sample collection -> Library preparation that can vary depending on type of biological data and final objectives -> sequencing where different techniques ara available to choos depending on data and objectives -> bioinformatics step intended for downstream analysis
+- 2
+- Let's look at Bioinformatics part a bit more in detail
+- 3
+- Here is simplified process of bioinformatics steps used to analyze sequenced data for sars-cov-2 surveillance. Tools can differ from one pipeline to another. But the main steps, in general, are more or less the same. 
+- primer trimming, is a specific step for ampliconic datasets. The auxiliary file is used for this step - a BED file specifying the primers used during amplification.
 
 ------
 
