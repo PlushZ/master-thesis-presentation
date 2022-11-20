@@ -58,18 +58,18 @@
 
 Note:
 - 1
-- more than 640 million people affected by SARS-CoV-2 pandemic after almost 3 years after the first report of SARS-CoV-2 in Wuhan, China. SARS-CoV-2 is a virus that causes COVID-19 disease. In the first year of the Coronavirus pandemic, the virus did not change much. From approximately spring of 2020 on, SARS-CoV-2’s evolution tree grew increasingly complex.
+- Almost 3 years after the first report of SARS-CoV-2 in Wuhan, China, more than 640 million people affected by SARS-CoV-2 pandemic. SARS-CoV-2 is a virus that causes COVID-19 disease. In the first year of the Coronavirus pandemic, the virus did not change much. From approximately spring of 2020 on, SARS-CoV-2’s evolution tree grew increasingly complex.
 - Different branches appeared for a number of variants: Omicron, Gamma, Alpha, Delta and others. Researchers track the SARS-CoV-2 variants with mutations that are clinically or epidemiologically significant. Detecting variants in a virus is important, one can determine if new variants are emerging or existing ones are spreading. In particular, variants with the potential or demonstrated ability to be more transmissible, immune evasive have to be tracked.
-- more than 4000 unique labs submitting data to the GISAID database
+- Loads of data are being submitted regularly (more than 4000 unique labs submitting data to the GISAID database)
 - submitted data have to be immediately analyzed to monitor emergence and spread of new variants as well as understand the viral evolution dynamics.
 - 2
 - Nevertheless, transparent and freely available infrastructure for such analysis is not present everywhere. It is often the case that infectious disease outbreaks occur in remote areas without adequate infrastructure or in political situations that make unbiased interpretation of results impossible.
 
 ------
 
-<span class="menu-title" style="display: none">SARS-CoV-2 surveillance</span>
+<span class="menu-title" style="display: none">SARS-CoV-2 clinical surveillance</span>
 
-### SARS-CoV-2 surveillance
+### SARS-CoV-2 clinical surveillance
 
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
@@ -328,10 +328,6 @@ Note:
 <img src="img/results/singlin-bar-venn.png" alt="drawing" width="800"/>
 </span>
 <span class="fragment current-visible" data-fragment-index="0">
-<img src="img/results/dist-singlin-fr-co.png" alt="drawing" width="600"/>
-</span>
-</span>
-<span class="fragment">
 <img src="img/results/pc-singlin.png" alt="drawing" width="800"/>
 </span>
 </div>
@@ -346,9 +342,6 @@ Note:
 - Using venn upset diagram, I analyzed intersections between sets of results and determined which samples were correctly detected by which tool (in terms of the lineages expected) and how similar the results were between tools.
 - Each column corresponds to a set of obtained results from certain tools (COJAC, Lineagespot, Freyja), and bar charts on top show the size of the set of tool’s results. The first row in the figure is completely empty, while 1 sample is expected to be detected but was not. This specigic sample is expected to contain only unknown synthetic lineage.
 - 2
-- Distplot: distribution of the proportion of lineage detected by Freyja and COJAC among samples in the Single lineage group was plotted. Looking at fig of distribution, I conclude that for single lineage detection, the results of lineage proportion from COJAC and Freyja are from 0.9 to 1.
-- However, some differences between Freyja and COJAC results are observed. Freyja showed a lower proportion of expected lineage, while for COJAC the proportion tends to 1 which is good because it's expected. So, COJAC results for the single lineage group are closer to what was expected.
-- 3
 - Parallel coordinates plot was generated for 22 samples where single lineage was expected.
 - For a single lineage group of samples compare Delta, BA.1, BA.2 lineage proportions detected by Freyja and COJAC with each other as well as with expected proportion. The left axis represents the expected proportion of the lineage, the middle axis represents the proportion of the lineage detected by COJAC, while the right axis represents the proportion of the lineage detected by Freyja.
 - Overall, proportions of lineages expected and detected by COJAC and Freyja close to each other
