@@ -289,7 +289,7 @@ Note:
 ### Results on real dataset
 #### US dataset
 
-<img src="img/results/us-results.png" alt="drawing" width="800"/>
+<img src="img/results/us-results.png" alt="drawing" width="500"/>
 
 Note:
 - Results from Freyja and COJAC on the US dataset are obviously not the same. The curious fact is detecting the considerable prevalence of the Delta lineage in summer 2022 by COJAC and not detecting it by Freyja. And more expected that both tools found Delta at the end of 2021 and the prevalence of Omicron (both BA.1 and BA.2 sub-lineages) in 2022. Interestingly, the BA.1 lineage was prevalent from January to March 2022, while BA.2 from April to June 2022.
@@ -315,11 +315,11 @@ Note:
 
 <div style="text-align: left">
 
-Freyja-based workflow:
+**Freyja-based workflow:**
 - detects unexpected lineages
 - when too many lineages - issues with plotting
 
-COJAC-based workflow:
+**COJAC-based workflow:**
 - for ampliconic datasets only
 
 </div>
@@ -335,7 +335,7 @@ COJAC-based workflow:
 - Create tutorials
 - Connect to Galaxy bot
 - Connect to CoV-Spectrum
-- Globally: repurpose to other wastewater genomic surveillance
+- **Globally:** repurpose to other wastewater genomic surveillance
 </div>
 
 Note:
@@ -357,17 +357,8 @@ Note:
 
 ### Thanks to:
 
-<div style="text-align: left">
-<small>
 
-Prof. Dr. Rolf Backofen
-Prof. Dr. Wolfgang R. Hess
-Dr. Bérénice Batut
-Dr. Wolfgang Maier
-Dr. Björn Grüning
-Freiburg Galaxy Team
-</small>
-</div>
+<img src="img/summary/thanks.png" alt="drawing" width="500"/>
 
 ---
 
