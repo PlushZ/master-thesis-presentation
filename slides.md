@@ -362,7 +362,13 @@ Note:
 <img src="img/results/twolin-bar-venn.png" alt="drawing" width="1000"/>
 
 Note:
--
+- **Barplot**
+- The same analysis was done for 48 samples of mock dataset where 2 lineages were expected.
+- (blue) In this case COJAC and Freyja showed adequate results in detecting both expected lineages.
+- (dark blue) Lineagespot, in turn showed less efficient results, however, in terms of detection only 2 expected lineages and nothing more Lineagespot performed better.
+- **Venn Upset:**
+- looking at venn diagramm, on can see 15 same samples were detected to contain expected lineages by all tools
+- Three samples that were not detected by any tool are distinct from other samples by belonging to the “low coverage” group.
 
 ------
 
@@ -374,7 +380,10 @@ Note:
 <img src="img/results/us-results.png" alt="drawing" width="500"/>
 
 Note:
-- Results from Freyja and COJAC on the US dataset are obviously not the same. The curious fact is detecting the considerable prevalence of the Delta lineage in summer 2022 by COJAC and not detecting it by Freyja. And more expected that both tools found Delta at the end of 2021 and the prevalence of Omicron (both BA.1 and BA.2 sub-lineages) in 2022. Interestingly, the BA.1 lineage was prevalent from January to March 2022, while BA.2 from April to June 2022.
+- Results from Freyja and COJAC on the US dataset are obviously not the same.
+- The curious fact is detecting the considerable prevalence of the **Delta in summer 2022 by COJAC** and not detecting it by Freyja.
+- And more expected that both tools found Delta at the end of 2021 and the prevalence of Omicron (both BA.1 and BA.2 sub-lineages) in 2022.
+- (optional) Interestingly, the BA.1 lineage was prevalent from January to March 2022, while BA.2 from April to June 2022.
 
 ------
 
@@ -384,7 +393,7 @@ Note:
 <img src="img/results/uk-freyja-dash-early-detection.png" alt="drawing" width="800"/>
 
 Note:
-- B.1.1.514 and B.1.1.301 lineages were in wastewater samples at the end of March 2020, and in April 2020.
+- After getting results on UK dataset dashboard was generated to show lineage preB.1.1.514 and B.1.1.301 lineages were in wastewater samples at the end of March 2020, and in April 2020.
 - In Pango database they were registered on 1 and 22 May 2020, respectively.
 - This fact proves earlier detection within wastewater surveillance over clinical surveillance.
 
