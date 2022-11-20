@@ -365,21 +365,6 @@ Note:
 
 ------
 
-<span class="menu-title" style="display: none">Results on real dataset</span>
-
-### Results on real dataset
-#### US dataset
-
-<img src="img/results/us-results.png" alt="drawing" width="500"/>
-
-Note:
-- Results from Freyja and COJAC on the US dataset are obviously not the same.
-- The curious fact is detecting the considerable prevalence of the **Delta in summer 2022 by COJAC** and not detecting it by Freyja.
-- And more expected that both tools found Delta at the end of 2021 and the prevalence of Omicron (both BA.1 and BA.2 sub-lineages) in 2022.
-- (optional) Interestingly, the BA.1 lineage was prevalent from January to March 2022, while BA.2 from April to June 2022.
-
-------
-
 ### Results on real dataset
 #### UK dataset
 
@@ -455,4 +440,4 @@ Note:
 
 ---
 
-Thanks for you attention!
+Thanks for your attention!
