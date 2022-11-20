@@ -277,8 +277,6 @@ Note:
 
 ------
 
-<span class="menu-title" style="display: none">Results on mock dataset</span>
-
 ### Results on mock dataset
 #### Two lineages expected
 
@@ -286,28 +284,27 @@ Note:
 
 ------
 
-### Genome assembly
-#### VGP *de novo* assembly workflow
+<span class="menu-title" style="display: none">Results on real dataset</span>
 
-<div class="r-stack">
-<span class="fragment fade-out" data-fragment-index="0">
+### Results on real dataset
+#### US dataset
 
-<img src="img/VGP_workflow.png" alt="drawing"/>
+<img src="img/results/us-results.png" alt="drawing" width="800"/>
 
-</span>
-<span class="fragment current-visible" data-fragment-index="0">
+Note:
+- Results from Freyja and COJAC on the US dataset are obviously not the same. The curious fact is detecting the considerable prevalence of the Delta lineage in summer 2022 by COJAC and not detecting it by Freyja. And more expected that both tools found Delta at the end of 2021 and the prevalence of Omicron (both BA.1 and BA.2 sub-lineages) in 2022. Interestingly, the BA.1 lineage was prevalent from January to March 2022, while BA.2 from April to June 2022.
 
-<div style="text-align:left; font-size:28px">
+------
 
-- The VGP-Galaxy project has assembled 26 genomes in the last 6 months
-- Largest: 4Gbp *Gastrophryne carolinensis*
+### Results on real dataset
+#### UK dataset
 
-</div>
+<img src="img/results/uk-freyja-dash-early-detection.png" alt="drawing" width="800"/>
 
-<img src="img/gastrophryne.png" alt="drawing" width="800"/>
-
-</span>
-</div>
+Note:
+- B.1.1.514 and B.1.1.301 lineages were in wastewater samples at the end of March 2020, and in April 2020.
+- In Pango database they were registered on 1 and 22 May 2020, respectively.
+- This fact proves earlier detection within wastewater surveillance over clinical surveillance.
 
 ------
 
