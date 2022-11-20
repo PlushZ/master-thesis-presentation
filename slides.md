@@ -112,7 +112,7 @@ Note:
 
 - transparency, accessibility, reproducibility
 - 4 workflows for **clinical** SARS-CoV-2 data surveillance can be repurposed
-- automated bots for regular data analysis
+- automated **bots** for regular data analysis
 
 </div>
 
@@ -120,8 +120,14 @@ Note:
 </div>
 
 Note:
-- Galaxy provides transparency, accessibility, reproducibility There were developed 4 workflows for clinical SARS-CoV-2 data surveillance Additionally, Galaxy team has developed bots to assist in SARS-CoV-2 surveillance, a viable tool for automating the analysis of a large number of SARS-CoV-2 sequences regularly.
-- Galaxy workflows developed for SARS-CoV-2 clinical surveillance have shown adequate results. There are, however, some limitations. Currently, Galaxy workflows do not focus on wastewater surveillance. Thus, Galaxy workflows can be improved and repurposed to improve SARS-CoV-2 wastewater surveillance. The current thesis attempts to focus on it.
+- 1
+- Galaxy is one of the process managers that provides transparency, accessibility, reproducibility
+- In order to respond global SARS-CoV-2 emergency, based on Galaxy there were developed **4 workflows** for clinical SARS-CoV-2 data surveillance
+- These Galaxy workflows suggested by Wolfgang Maier and collegues in principle are divided into two stages: 1 - produces summaries on variant calling and mutation annotation, while 2 - interprets and visualize. 
+- Workflows depend on type of input data, library preparation technique used to extract input data and sequencing technology used to obtain reads.
+- 2
+- Additionally, Galaxy team has developed **bots** to assist in SARS-CoV-2 surveillance, a viable tool for automating the analysis of a large number of SARS-CoV-2 sequences regularly.
+- Galaxy workflows developed for SARS-CoV-2 clinical surveillance have shown adequate results. There are, however, some limitations. Currently, Galaxy workflows do not focus on wastewater surveillance. Thus, Galaxy workflows can be improved and repurposed to aim for SARS-CoV-2 wastewater surveillance. The current thesis attempts to focus on it.
 
 ------
 
