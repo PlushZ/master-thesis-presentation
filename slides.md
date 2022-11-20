@@ -260,7 +260,7 @@ Note:
 </span>
 </span>
 <span class="fragment">
-<img src="img/results/pc-singlin.png" alt="drawing" width="400"/>
+<img src="img/results/pc-singlin.png" alt="drawing" width="600"/>
 </span>
 </div>
 
