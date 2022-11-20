@@ -253,10 +253,10 @@ Note:
 
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
-<img src="img/results/singlin-bar-venn.png" alt="drawing" width="600"/>
+<img src="img/results/singlin-bar-venn.png" alt="drawing" width="1000"/>
 </span>
 <span class="fragment current-visible" data-fragment-index="0">
-<img src="img/results/dist-singlin-fr-co.png" alt="drawing" width="600"/>
+<img src="img/results/dist-singlin-fr-co.png" alt="drawing" width="800"/>
 </span>
 </span>
 <span class="fragment">
@@ -275,7 +275,7 @@ Note:
 ### Results on mock dataset
 #### Two lineages expected
 
-<img src="img/results/twolin-num-bars.png" alt="drawing" width="600"/>
+<img src="img/results/twolin-bar-venn.png" alt="drawing" width="1000"/>
 
 ------
 
