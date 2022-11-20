@@ -253,14 +253,14 @@ Note:
 
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
-<img src="img/results/singlin-bar-venn.png" alt="drawing" width="900"/>
+<img src="img/results/singlin-bar-venn.png" alt="drawing" width="800"/>
 </span>
 <span class="fragment current-visible" data-fragment-index="0">
 <img src="img/results/dist-singlin-fr-co.png" alt="drawing" width="600"/>
 </span>
 </span>
 <span class="fragment">
-<img src="img/results/pc-singlin.png" alt="drawing" width="900"/>
+<img src="img/results/pc-singlin.png" alt="drawing" width="800"/>
 </span>
 </div>
 
