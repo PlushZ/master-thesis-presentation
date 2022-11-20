@@ -4,7 +4,7 @@
 
 <small>Bioinformatics Group</small>
 
-<small>Master Thesis</small>
+<small>Master Thesis</small> 
 
 ##### **Development and evaluation of Galaxy pipelines for detection of SARS-CoV-2 variants by genomic analysis of wastewater samples**
 
@@ -43,6 +43,7 @@
 
 ## Introduction
 
+<small>SARS-CoV-2 evolution</small>
 <img src="img/intro/nextstrain_phylo.png" alt="nextstrain"/>
 <small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -1%;">Source: nextstrain.org</small>
 
