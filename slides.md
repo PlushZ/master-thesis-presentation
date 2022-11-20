@@ -149,10 +149,7 @@ Note:
 
 ### State-of-the-art
 
-<div class="r-stack">
-<img class="fragment fade-out" data-fragment-index="0" src="img/intro/prior-tools.png" alt="Simplified table with state of the art individual tools" width="1000"/>
-<img class="fragment current-visible" data-fragment-index="0" src="img/intro/prior-pipelines.png" alt="Simplified table with state of the art standalone pipelines" width="1000"/>
-</div>
+<img src="img/intro/prior-methods.png" alt="Simplified table with state of the art methods" width="800"/>
 
 ------
 
