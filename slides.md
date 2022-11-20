@@ -160,8 +160,12 @@ Note:
 </div>
 
 Note:
+- 1
 - wastewater surveillance has received extensive public attention as a passive monitoring system that complements clinical surveillance.
-- Schematic diagram shows the process of detecting viruses by wws against clinical surveillance.
+- Schematic diagram shows the process of detecting viruses by WWS against clinical surveillance.
+- upper branch shows a clinical surveillance of sars-cov-2, from the infection moment to bioinformatics data analysis
+- lower branch, in turn, represents wastewater surveillance
+- 2
 - WWS seems to be an effective decision:
 - (+): ww methods allow the detection of outbreaks before the first positive clinical tests are reported
 - (+): virus RNA is detected in sewage even when COVID-19 prevalence is low
@@ -179,6 +183,11 @@ Note:
 ### State-of-the-art
 
 <img src="img/intro/prior-methods.png" alt="Simplified table with state of the art methods" width="800"/>
+
+Note:
+- various state-of-the-art methods already presented to the public
+- They can be divided into: 1) individual tools which require data preprocessing before sars-cov-2 lineages detection; 2) standalone pipelines that provide the entire analysis from raw data to lineages abundances detection
+- state-of-the-art methods have differences in their goals, models, tools used and outputs
 
 ------
 
@@ -203,7 +212,10 @@ Develop pipelines for SARS-CoV-2 wastewater data analysis that is:
 <img class="fragment current-visible" data-fragment-index="0" src="img/intro/tasks.png" alt="drawing" width="600"/>
 
 Note:
-- In this master thesis, I aim to provide a complete workflow based on Galaxy that assists platforms that can ensure data analysis transparency and reproducibility. To be precise, I intend to adapt the Galaxy workflows developed for clinical data to process wastewater data. In doing so, I integrate existing tools, test these workflows on mock datasets as well as real datasets, and benchmark them against each other and with other solution offered by other researchers.
+- In this master thesis, I aim to provide a complete workflow based on Galaxy that can ensure data analysis transparency and reproducibility.
+- I intended to adapt the Galaxy workflows developed for clinical data to process wastewater data, taking subworkflows for preprocessing data, improving these subworkflows.
+- then, integrate existing tools for sars-cov-2 lineages abundances analysis in wastewater samples
+- then, test these workflows on mock datasets as well as real datasets, and benchmark them against each other and with other solution offered by other researchers.
 
 ---
 
