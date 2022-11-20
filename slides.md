@@ -46,7 +46,7 @@
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
 <small>SARS-CoV-2 evolution</small>
-<img src="img/intro/nextstrain_phylo.png" alt="nextstrain"/>
+<img src="img/intro/nextstrain_phylo2.png" alt="nextstrain"/>
 <small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -1%;">Source: nextstrain.org</small>
 </span>
 <span class="fragment current-visible" data-fragment-index="0">
