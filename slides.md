@@ -212,10 +212,13 @@ Develop pipelines for SARS-CoV-2 wastewater data analysis that is:
 <img class="fragment current-visible" data-fragment-index="0" src="img/intro/tasks.png" alt="drawing" width="600"/>
 
 Note:
+- 1
 - In this master thesis, I aim to provide a complete workflow based on Galaxy that can ensure data analysis transparency and reproducibility.
 - I intended to adapt the Galaxy workflows developed for clinical data to process wastewater data, taking subworkflows for preprocessing data, improving these subworkflows.
 - then, integrate existing tools for sars-cov-2 lineages abundances analysis in wastewater samples
 - then, test these workflows on mock datasets as well as real datasets, and benchmark them against each other and with other solution offered by other researchers.
+- 2
+- for this purpose, I identified the tasks that I intended to complete in this thesis
 
 ---
 
@@ -251,11 +254,19 @@ Extra steps:
 </div>
 
 Note:
-- Galaxy wfs showed decent results for clinical SARS=CoV-2 data surveillance and was based on Galaxy that can assure transparency, reproducibility and availability as well as regular analysis tools (bots) -> repurposing existing galaxy wfs
-- First: evaluation of needs showed that the most of  available real-world data are extracted with ampliconic and metatranscriptomic approaches with Illumina sequencing methods ->
-- focus on 2 wfs: illumina-ampliconic + illumina-metatranscriptomic
-- Freyja and COJAC tools were chosen to be implemented into Galaxy wfs -> there were 2 wrappers created with Planemo
-- 2 branches were created: freyja-based and cojac-based that can be run simultaneously to get both results
+- 1
+- In this thesis 2 wfs were created based on input data: illumina-ampliconic + illumina-metatranscriptomic
+- Freyja and COJAC tools were chosen to be implemented into Galaxy wfs. 
+- -> 2 branches were built: freyja-based and cojac-based
+- now i want to have a look at both workflows
+- 2
+- I highlighted in yellow the blocks added by me as part of the work on this thesis. 
+- first wf was built for ampliconic input data
+- talk about extra steps and then branches
+- wrappers were written with planemo (a command-line application for creating Galaxy tools, workflows, and deploying tools to Galaxy)
+- 3
+- second wf was built for metatranscriptomic data
+- only freyja, cojac was not used because cojac can work only fro ampliconic data
 
 ------
 
@@ -279,7 +290,8 @@ Workflows were tested on:
 <img src="img/methods/table-mock-data.png" alt="table" width="600"/>
 
 Note:
-- Generation of mock dataset: Delta, BA.1, BA.2, asa well as synthetic lineage; Single lineage vs Two lineages
+- Generation of mock dataset: Delta, BA.1, BA.2, recombinant (lineages combined from 3 lineages) as well as synthetic lineage;
+- Single lineage vs Two lineages
 - Comparison Freyja, COJAC, and Lineagespot results with expected results
 
 ------
@@ -292,11 +304,11 @@ Note:
 
 Note:
 - In order to provide a fairly comprehensive analysis, real-world datasets for experiments in this thesis were selected in such a way that they cover a variety of locations in the world and different time points of collecting samples. 
-- That is why the choice of my thesis fell on the four datasets: 
-- i) one dataset from California where the samples were collected in 2020 at a wastewater interceptor; 
-- ii) a dataset from the UK, with data collected in sewage across six major urban centers in the UK (with a total population equivalent of 3 million) around the same time period (late spring - early summer of 2020) as the previous dataset in order to show different proportions of different variants of the virus
-- iii) a dataset from wastewater treatment facilities across Ontario, Canada collected by Canadian Research Institute for Food Safety, which is interesting to analyze because it contains one of the most recent datasets, the last sample was published in June of 2022;
-- iv) a dataset from the US collected by the FDA Center for Food Safety and Applied Nutrition, one of the most extensive dataset with more than 340 samples already and regularly new samples are being added (last samples being from October of 2022). This dataset would be interesting to connect to Galaxy bots for regilar analysis
+- Four datasets: 
+- i) one dataset from California where the samples were collected in 2020 
+- ii) a dataset from the UK, with data collected in sewage across six major urban centers in the UK (with a total population equivalent of 3 million) around the same time period (late spring - early summer of 2020) as the Californian dataset
+- iii) a dataset from wastewater treatment facilities across Ontario, Canada collected in the end of 2021 and beginning of 2022
+- iv) a dataset from the US, one of the most extensive dataset with 418 samples already and regularly new samples are being added (last samples being from October of 2022). This dataset would be interesting to connect to Galaxy bots for regilar analysis
 
 ---
 
@@ -326,14 +338,21 @@ Note:
 
 Note:
 - 1
-- From fig 1 it is obvious that all three tools are effective in detecting expected lineage. Nonetheless, in discerning only expected lineage and nothing more, Lineagespot performed the best, compared to COJAC and Freyja. Freyja is effective at detecting expected lineage; however, it always detected some unexpected lineages. COJAC’s results are close to Freyja’s results, but COJAC was able to detect 2 samples with the expected lineage. Another interesting observation is that in 4 samples, COJAC is rather to detect nothing than expected lineage. Figure 16 shows that Freyja is an effective tool for detecting expected lineage, even though Freyja always detects other lineages. When it is expected the sample to contain only one lineage but nothing more, Freyja is not that effective. Moreover, in 6 samples for Freyja and in 2 samples for COJAC (out of 22), there were detected unexpected, i.e. incorrect, lineages. On the other hand, Lineagespot is effective in the case of detecting only expected lineages, probably because it has the additional step in its pipeline when the most probable lineages are assigned for the sample. This extra step is made based on several indicators. So Lineagespot detected only expected lineage in 7 samples out of 22 samples from a single lineage group. As for COJAC, it performed quite well and was able to detect only one lineage that was expected in 2 out of 22 samples, however, for 4 samples with expected lineage, COJAC detected nothing.
-- venn upset diagram
-- Using venn upset diagram, I analyzed intersections between sets of results and determined which samples were correctly detected by which tool (in terms of the lineages expected) and how similar the results were between tools. Venn Upset diagram below (fig. 17) was constructed based on 22 samples in which there was a single lineage expected. Each column corresponds to a set of obtained results from certain tools (COJAC, Lineagespot, Freyja), and bar charts on top show the size of the set of tool’s results. The first row in the figure is completely empty, while 1 sample is expected to be detected but was not. This sample75 is expected to contain only unknown synthetic lineage.
+- **Barplot:**
+- I analyzed separately samples were single lineage was expected. I compared results on these samples produced by COJAC-based and Freyja-based Galaxy workflows, as well as by one of the workflows that is not Galaxy but one of state-of-the-art solutions called Lineagespot.
+- (brown and purple) All three tools are  quite effective in detecting expected lineage. Nonetheless, in discerning only expected lineage and nothing more, Lineagespot performed the best, compared to COJAC and Freyja. Freyja is effective at detecting expected lineage; however, it always detected some unexpected lineages. COJAC’s results are close to Freyja’s results, but COJAC was able to detect 2 samples with the expected lineage. 
+- (yellow and blue) In 6 samples out of 22 Freyja and COJAC detected either unexpected lineages or nothing 
+- **Venn upset diagram:**
+- Using venn upset diagram, I analyzed intersections between sets of results and determined which samples were correctly detected by which tool (in terms of the lineages expected) and how similar the results were between tools.
+- Each column corresponds to a set of obtained results from certain tools (COJAC, Lineagespot, Freyja), and bar charts on top show the size of the set of tool’s results. The first row in the figure is completely empty, while 1 sample is expected to be detected but was not. This specigic sample is expected to contain only unknown synthetic lineage.
 - 2
 - Distplot: distribution of the proportion of lineage detected by Freyja and COJAC among samples in the Single lineage group was plotted. Looking at fig of distribution, I conclude that for single lineage detection, the results of lineage proportion from COJAC and Freyja are from 0.9 to 1.
-- However, some differences between Freyja and COJAC results are observed. Freyja showed a lower proportion of expected lineage, while for COJAC the proportion tends to 1 which is expected. Thus, we can guess that COJAC results for the single lineage group are closer to what was expected.
+- However, some differences between Freyja and COJAC results are observed. Freyja showed a lower proportion of expected lineage, while for COJAC the proportion tends to 1 which is good because it's expected. So, COJAC results for the single lineage group are closer to what was expected.
 - 3
-- Parallel coordinates plot for a single lineage group of samples that compare Delta, BA.1, BA.2 lineage proportions detected by Freyja and COJAC with each other as well as with expected proportion. The left axis represents the expected proportion of the lineage, the middle axis represents the proportion of the lineage detected by COJAC, while the right axis represents the proportion of the lineage detected by Freyja.
+- Parallel coordinates plot was generated for 22 samples where single lineage was expected.
+- For a single lineage group of samples compare Delta, BA.1, BA.2 lineage proportions detected by Freyja and COJAC with each other as well as with expected proportion. The left axis represents the expected proportion of the lineage, the middle axis represents the proportion of the lineage detected by COJAC, while the right axis represents the proportion of the lineage detected by Freyja.
+- Overall, proportions of lineages expected and detected by COJAC and Freyja close to each other
+- In one curious case for 2 samples BA.1 lineage was not expected but COJAC detected its proportion close to 1. These two samples containg recombinant of all 3 lineages (Delta, BA.1, BA.2). For these 2 samples, it was expected to detect the recombination of three (BA.1, BA.2, and Delta) lineages, but not each of these lineages separately. This recombinant contains BA.1 lineage mutations, and that’s why COJAC misinterpreted results for these samples.
 
 ------
 
@@ -341,6 +360,9 @@ Note:
 #### Two lineages expected
 
 <img src="img/results/twolin-bar-venn.png" alt="drawing" width="1000"/>
+
+Note:
+-
 
 ------
 
@@ -381,6 +403,7 @@ Note:
 
 **COJAC-based workflow:**
 - for ampliconic datasets only
+- can misinterpret recombinants
 
 </div>
 
