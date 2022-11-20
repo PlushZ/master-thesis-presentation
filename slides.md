@@ -306,48 +306,44 @@ Note:
 - In Pango database they were registered on 1 and 22 May 2020, respectively.
 - This fact proves earlier detection within wastewater surveillance over clinical surveillance.
 
-------
+---
 
-### Genome assembly
-#### Within-species variation: resequencing
+<span class="menu-title" style="display: none">Discussion</span>
 
-<div class="r-stack">
-<span class="fragment fade-out" data-fragment-index="0">
+### Discussion
+#### Limitations
 
-<img src="img/within_specie_variation.png" alt="drawing" width="1200"/>
+<div style="text-align: left">
 
-<small>The butterfly genus *Heliconius* contains species that are extremely difficult to tell apart.</small>
+Freyja-based workflow:
+- detects unexpected lineages
+- when too many lineages - issues with plotting
 
-</span>
-<span class="fragment current-visible" data-fragment-index="0">
+COJAC-based workflow:
+- for ampliconic datasets only
 
-<img src="img/resequencing.jpg" alt="drawing" width="700"/>
-
-<small><small>Source: nature.com</small></small>
-
-</span>
 </div>
 
 ------
 
-<span class="menu-title" style="display: none">Transcriptomics: expression analysis</span>
+### Discussion
+#### Next steps
 
-### Transcriptomics: RNA-seq
+<div style="text-align: left">
 
-<div class="r-stack">
-<span class="fragment fade-out" data-fragment-index="0">
-
-<img src="img/transcription.jpg" alt="drawing" width="800"/>
-
-<small><small>Source: metrics-lab.github.io</small></small>
-
-</span>
-<span class="fragment current-visible" data-fragment-index="0">
-
-<img src="img/comparison_transcription.jpg" alt="drawing" width="800"/>
-
-</span>
+- Publich workflows to WorkflowHub
+- Create tutorials
+- Connect to Galaxy bot
+- Connect to CoV-Spectrum
+- Globally: repurpose to other wastewater genomic surveillance
 </div>
+
+Note:
+- CoV-Spectrum is an interactive platform aiming to assist scientists in investigating and identifying SARS-CoV-2 variants
+- WorkflowHub is a registry for describing, sharing and publishing scientific computational workflows. The registry supports any workflow in its native repository. WorkflowHub aims to facilitate discovery and re-use of workflows in an accessible and interoperable way. This is achieved through extensive use of open standards and tools, including Common Workflow Language (CWL), RO-Crate, BioSchemas and TRS, in accordance with the FAIR principles.
+- FAIR Findability, Accessibility, Interoperability, and Reusability foundational principles.
+- poliovirus
+- In recent two years, increased public awareness of any suspicious virus, including poliovirus, and ubiquitous usage of wastewater surveillance of poliovirus are preventing any cases of paralysis following the recent re-emergence of polio in New York
 
 ------
 
