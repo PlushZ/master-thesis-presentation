@@ -345,208 +345,28 @@ Note:
 - poliovirus
 - In recent two years, increased public awareness of any suspicious virus, including poliovirus, and ubiquitous usage of wastewater surveillance of poliovirus are preventing any cases of paralysis following the recent re-emergence of polio in New York
 
-------
+---
 
-### Transcriptomics: RNA-seq
-#### Differential expression analysis pipeline
+<span class="menu-title" style="display: none">Summary</span>
 
-<div class="r-stack">
-<span class="fragment fade-out" data-fragment-index="0">
+### Summary
 
-<img src="img/differential_expression.png" alt="drawing" width="500"/>
-
-</span>
-<span class="fragment current-visible" data-fragment-index="0">
-
-<img src="img/DE_plots.png" alt="drawing" width="1000"/>
-
-<small><small>Source: nature.com</small></small>
-
-</span>
-</div>
+<img src="img/summary/tasks-done-without-publish.png" alt="drawing" width="600"/>
 
 ------
 
-### Transcriptomics: RNA-seq
-#### Cancer prognosis by gene expression analysis
-
-<img src="img/transcriptome_cancer.jpg" alt="drawing" width="1000"/>
-
-------
-
-### Epigenetics
-
-<a href="https://imgflip.com/i/6zn61x" ><img src="https://i.imgflip.com/6zn61x.jpg"  width="600"/></a>
-
-------
-
-<span class="menu-title" style="display: none">Epigenetics</span>
-    
-### Epigenetics
-
-<div class="r-stack">
-<span class="fragment fade-out" data-fragment-index="0">
-
-Epigenetics is the study of **stable and inheritable phenotypic changes** that do not involve alterations in the DNA sequence.
+### Thanks to:
 
 <div style="text-align: left">
-<br>
+<small>
 
-It involves multiple mechanisms:
-    
-- Covalent modifications (e.g. DNA/RNA methylation)
-- Histone positioning
-- Histone variants
-- Many more!
-
-</div>
-</span>
-<span class="fragment current-visible" data-fragment-index="0" style="font-size:40px">
-<div style="text-align: left">
-
-Detection requires usually  a three-phase strategy:
-
-<br>
-
-- Conversion of epigenetic into genetic information
-    - Usually by biochemical methods
-- High-throughput sequencing
-- Computational and statisticall analysis
-
-</div>
-
-</span>
-</div>
-
-------
-
-<span class="menu-title" style="display: none">DNA/RNA methylation</span>
-
-### Epigenetics
-#### Covalent modifications: DNA/RNA methylation
-
-<div class="r-stack">
-<span class="fragment fade-out" data-fragment-index="0">
-
-<img src="img/methylation.jpg" alt="drawing" width="1000"/>
-
-<small>DNA/RNA methylation **regulates gene expression** by recruiting proteins involved in gene repression or by inhibiting the binding of transcription factor(s) to DNA.</small>
-
-</span>
-<span class="fragment current-visible" data-fragment-index="0">
-<img src="img/bisulfite_sequencing.jpg" alt="drawing" width="800"/>
-<small>Bisulfite sequencing involves the deamination of unmodified cytosines to uracil.</small>
-</span>
-</span>
-<span class="fragment">
-<img src="img/paper_methylation.png" alt="drawing"/>
-</span>
-</div>
-
-------
-
-<span class="menu-title" style="display: none">Cancer molecular markers</span>
-
-### Epigenetics
-#### Identification of cancer molecular markers
-
-<div class="r-stack">
-<span class="fragment fade-out" data-fragment-index="0">
-
-<img src="img/cancer_methylation.png" alt="drawing" width="700"/>
-
-</span>
-<span class="fragment current-visible" data-fragment-index="0">
-
-<img src="img/cancer_genes.png" alt="drawing" width="900"/>
-
-<small><small>Source: nature.com</small></small>
-
-</span>
-</div>
-
-------
-
-<span class="menu-title" style="display: none">Plant resistance to extreme conditions</span>
-
-### Epigenetics
-#### Evaluation of plant resistance to extreme conditions
-
-<div class="r-stack">
-<span class="fragment fade-out" data-fragment-index="0">
-
-<img src="img/plants_methylation.png" alt="drawing" width="700"/>
-
-<small><small>Plant stress memory and their capacity to influence plant tolerance to a changing environment and crop productivity is considered to play an important role in the adaptation and evolution of plants.</small></small>
-    
-</span>
-<span class="fragment current-visible" data-fragment-index="0">
-
-<img src="img/lysenko.png" alt="drawing" width="1000"/>
-
-<small>"Hereditary changes can be induced by changing environmental conditions." <br><small>Trofim Denisovich Lysenko (1898-1976)</small></small>
-
-</span>
-</div>
-
-------
-
-<span class="menu-title" style="display: none">Neurodegenerative disorders</span>
-
-### Epigenetics
-#### Neuroepigenetics: study of psyquiatric disorders
-
-<span style="font-size:28px">
-
-<div style="text-align: left">
-
-<br>
-Psichyatric disorders influenced/associated by epigenetic modifications:
-<br><br>
-
-- Schizophrenia
-- Rubinstein-Taybi syndrome
-- Huntington's disease
-- Fragile X syndrome
-
-</div>
-</span>
-
-------
-
-### Epigenetics
-#### Neuroepigenetics: substance abuse disorders
-
-<img src="img/opioid_overdose.png" alt="drawing" width="600"/>
-
-<small><small>Five genes over-burdened by epigenetic modifications: ASTN2, KCNMA1, DUSP4, GABBR2, ENOX1.</small></small>
-
-</span>
-</div>
-
-------
-
-### Epigenetics
-#### Neuroepigenetics: intergenerational transmission of fear
-
-<span style="font-size:24px">
-
-<div style="text-align: left">
-
-<br>
-Animal studies in rats have shown that:
-<br><br>
-
-- Persistent fear-related memory behaviour is dependent on *de novo* DNA methylation [1].
-    - DNA-methyltransferases (DMT) inhibitors block the formation of traumatic memories.
-- Genetic imprint from traumatic experiences carries through at least two generations [2].
-
-</span>
-
-<small><br>
-[1] Bali P, Im HI, Kenny PJ. Methylation, memory and addiction. Epigenetics (2011). https://doi.org/10.4161/epi.6.6.15905<br><br>[2] Callaway, E. Fearful memories haunt mouse descendants. Nature (2013). https://doi.org/10.1038/nature.2013.14272
+Prof. Dr. Rolf Backofen
+Prof. Dr. Wolfgang R. Hess
+Dr. Bérénice Batut
+Dr. Wolfgang Maier
+Dr. Björn Grüning
+Freiburg Galaxy Team
 </small>
-
 </div>
 
 ---
