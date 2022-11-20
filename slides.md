@@ -393,7 +393,8 @@ Note:
 <img src="img/results/uk-freyja-dash-early-detection.png" alt="drawing" width="800"/>
 
 Note:
-- After getting results on UK dataset dashboard was generated to show lineage preB.1.1.514 and B.1.1.301 lineages were in wastewater samples at the end of March 2020, and in April 2020.
+- After getting results on UK dataset dashboard was generated to show lineage prevalence in samples
+- Interestingly, B.1.1.514 and B.1.1.301 lineages were in wastewater samples at the end of March 2020, and in April 2020.
 - In Pango database they were registered on 1 and 22 May 2020, respectively.
 - This fact proves earlier detection within wastewater surveillance over clinical surveillance.
 
@@ -402,7 +403,7 @@ Note:
 <span class="menu-title" style="display: none">Discussion</span>
 
 ### Discussion
-#### Limitations
+#### Limitations 
 
 <div style="text-align: left">
 
@@ -445,6 +446,9 @@ Note:
 
 <small>Development and evaluation of Galaxy pipelines for detection of SARS-CoV-2 variants by genomic analysis of wastewater samples</small>
 <img src="img/summary/tasks-done-without-publish.png" alt="drawing" width="600"/>
+
+Note:
+- in accordance with the tasks that were set while working on this thesis, here is a list of completed tasks and the intention to complete unfinished tasks
 
 ------
 
