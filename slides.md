@@ -25,11 +25,9 @@
 ### Table of contents
 CHANGE
 - <span style="font-size:30px">**Introduction**</span>
-    - <span style="font-size:20px">SARS-CoV-2 surveillance</span>
-    - <span style="font-size:20px">Galaxy?</span>
-    - <span style="font-size:20px">Wastewater surveillance</span>
-    - <span style="font-size:20px">State-of-the-art</span>
 - <span style="font-size:30px">**Methods**</span>
+    - <span style="font-size:20px">Workflows</span>
+    - <span style="font-size:20px">Datasets</span>
 - <span style="font-size:30px">**Results**</span>
     - <span style="font-size:20px">Mock dataset</span>
     - <span style="font-size:20px">Real-world dataset</span>
