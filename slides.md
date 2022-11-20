@@ -457,6 +457,8 @@ Note:
 
 <img src="img/summary/thanks.png" alt="drawing" width="500"/>
 
+- I want to thank these people for giving me the opportunity to write my master thesis and for the support they provided me while working on the thesis
+
 ---
 
 Thanks for you attention!
