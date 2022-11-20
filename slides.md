@@ -58,9 +58,9 @@
 
 Note:
 - 1
-- >640 million people affected by SARS-CoV-2 pandemic after almost 3 years after the first report of SARS-CoV-2 in Wuhan, China. SARS-CoV-2 is a virus that causes COVID-19 disease. In the first year of the Coronavirus pandemic, the virus did not change much. From approximately spring of 2020 on, SARS-CoV-2’s evolution tree grew increasingly complex.
+- more than 640 million people affected by SARS-CoV-2 pandemic after almost 3 years after the first report of SARS-CoV-2 in Wuhan, China. SARS-CoV-2 is a virus that causes COVID-19 disease. In the first year of the Coronavirus pandemic, the virus did not change much. From approximately spring of 2020 on, SARS-CoV-2’s evolution tree grew increasingly complex.
 - Different branches appeared for a number of variants: Omicron, Gamma, Alpha, Delta and others. Researchers track the SARS-CoV-2 variants with mutations that are clinically or epidemiologically significant. Detecting variants in a virus is important, one can determine if new variants are emerging or existing ones are spreading. In particular, variants with the potential or demonstrated ability to be more transmissible, immune evasive have to be tracked.
-- >4000 unique labs submitting data to the GISAID database
+- more than 4000 unique labs submitting data to the GISAID database
 - submitted data have to be immediately analyzed to monitor emergence and spread of new variants as well as understand the viral evolution dynamics.
 - 2
 - Nevertheless, transparent and freely available infrastructure for such analysis is not present everywhere. It is often the case that infectious disease outbreaks occur in remote areas without adequate infrastructure or in political situations that make unbiased interpretation of results impossible.
@@ -214,10 +214,10 @@ Develop pipelines for SARS-CoV-2 wastewater data analysis that is:
 Note:
 - 1
 - In this master thesis, I aim to provide a complete workflow based on Galaxy that can ensure data analysis transparency and reproducibility.
+- 2
 - I intended to adapt the Galaxy workflows developed for clinical data to process wastewater data, taking subworkflows for preprocessing data, improving these subworkflows.
 - then, integrate existing tools for sars-cov-2 lineages abundances analysis in wastewater samples
 - then, test these workflows on mock datasets as well as real datasets, and benchmark them against each other and with other solution offered by other researchers.
-- 2
 - for this purpose, I identified the tasks that I intended to complete in this thesis
 
 ---
@@ -368,7 +368,7 @@ Note:
 - (dark blue) Lineagespot, in turn showed less efficient results, however, in terms of detection only 2 expected lineages and nothing more Lineagespot performed better.
 - **Venn Upset:**
 - looking at venn diagramm, on can see 15 same samples were detected to contain expected lineages by all tools
-- Three samples that were not detected by any tool are distinct from other samples by belonging to the “low coverage” group.
+- Three samples that were not detected by any tool are distinct from other samples by belonging to the low coverage group.
 
 ------
 
