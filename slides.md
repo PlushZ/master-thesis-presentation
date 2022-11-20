@@ -58,7 +58,6 @@ Note:
 
 <span class="menu-title" style="display: none">SARS-CoV-2 surveillance</span>
 
-## Introduction
 ### SARS-CoV-2 surveillance
 
 <div class="r-stack">
@@ -80,7 +79,6 @@ Note:
 
 <span class="menu-title" style="display: none">Galaxy effort</span>
 
-## Introduction
 #### Galaxy effort for clinical surveillance
 
 <div class="r-stack">
@@ -108,7 +106,6 @@ Note:
 
 <span class="menu-title" style="display: none">Wastewater surveillance</span>
 
-## Introduction
 ### Wastewater surveillance
 
 <div class="r-stack">
