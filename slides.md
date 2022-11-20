@@ -235,7 +235,7 @@ Workflows were tested on:
 
 ### Mock dataset
 
-<img src="img/methods/table-rmock-data.png" alt="table" width="600"/>
+<img src="img/methods/table-mock-data.png" alt="table" width="600"/>
 
 Note:
 - Generation of mock dataset: Delta, BA.1, BA.2, asa well as synthetic lineage; Single lineage vs Two lineages
