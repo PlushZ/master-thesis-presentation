@@ -47,6 +47,13 @@ CHANGE
 <img src="img/intro/nextstrain_phylo.png" alt="nextstrain"/>
 <small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -1%;">Source: nextstrain.org</small>
 
+Note:
+- >640 million people affected by COVID-19 pandemic. SARS-CoV-2 is a virus that causes COVID-19 disease. In the first year of the Coronavirus pandemic, the virus did not change much. From approximately summer of 2020 on, SARS-CoV-2’s family tree grew increasingly complex.
+- The main trunk sprouted branches for a number of variants. Gamma, lambda, and mu variants appeared (although none spread worldwide). The tree’s canopy was formed by dozens of branches (fig). Researchers track the SARS-CoV-2 variants with mutations that are clinically or epidemiologically significant. Detecting variants in a virus is important, one can determine if new variants are emerging or existing ones are spreading. In particular, variants with the potential or demonstrated ability to be more transmissible, immune evasive. On-going pandemic control efforts are challenged by the emergence of SARS-CoV-2 variants with greater transmission potential and/or immunity circumvention.
+- wastewater surveillance has received extensive public attention as a passive monitoring system that complements clinical surveillance.
+- >4000 unique labs submitting data to the GISAID database data have to be immediately analyzed to monitor emergence and spread of new variants as well as understand the viral evolution dynamics.
+- Nevertheless, transparent and freely available infrastructure for such analysis is not present everywhere. It is often the case that infectious disease outbreaks occur in remote areas without adequate infrastructure or in political situations that make unbiased interpretation of results impossible.
+
 ------
 
 <span class="menu-title" style="display: none">SARS-CoV-2 surveillance</span>
@@ -91,6 +98,10 @@ CHANGE
 </span>
 </div>
 
+Note:
+- Galaxy provides transparency, accessibility, reproducibility There were developed 4 workflows for clinical SARS-CoV-2 data surveillance Additionally, Galaxy team has developed bots to assist in SARS-CoV-2 surveillance, a viable tool for automating the analysis of a large number of SARS-CoV-2 sequences regularly.
+- Galaxy workflows developed for SARS-CoV-2 clinical surveillance have shown adequate results. There are, however, some limitations. Currently, Galaxy workflows do not focus on wastewater surveillance. Thus, Galaxy workflows can be improved and repurposed to improve SARS-CoV-2 wastewater surveillance. The current thesis attempts to focus on it.
+
 ------
 
 <span class="menu-title" style="display: none">Wastewater surveillance</span>
@@ -120,6 +131,18 @@ CHANGE
 
 </span>
 </div>
+
+Note:
+- Schematic diagram shows the process of detecting viruses by wws against clinical surveillance.
+- WWS seems to be an effective decision:
+- (+): ww methods allow the detection of outbreaks before the first positive clinical tests are reported
+- (+): virus RNA is detected in sewage even when COVID-19 prevalence is low
+- (+): wws is more economical than clinical testing since it can screen
+- large numbers of people with just a few samples and does not need clinician involvement
+- (+): by using the wws, data can be collected from people who do not have access to healthcare or in places, so-called 'sequencing deserts', around the world where sequencing capacity is limited
+- (-) wws is more challenging to detect viruses accurately in wastewater, compared to clinical testing. Prior to virus concentration, large quantities of sewage sludge should be filtered. Molecular analyses, like PCR, can be hindered by concentration techniques that damage genomic material. Furthermore, sewage contains a wide variety of other microbes and viruses, which may produce false positive results, as well as human DNA.
+- (-): Because it contains human DNA, ww data need to be anonymized due to privacy concerns. However, pathogenic surveillance has the task of linking genetic information with the clinical manifestations and immunological status of patients => wws is limited in this regard, and it is able to provide only coarse population-level information.
+- (-): ww detection efforts can be hindered by spreading a pathogen by infected people passing through a region
 
 ------
 
@@ -154,6 +177,8 @@ Develop pipelines for SARS-CoV-2 wastewater data analysis that is:
 
 <img class="fragment current-visible" data-fragment-index="0" src="img/intro/tasks.png" alt="drawing" width="600"/>
 
+Note:
+- In this master thesis, I aim to provide a complete workflow based on Galaxy that assists platforms that can ensure data analysis transparency and reproducibility. To be precise, I intend to adapt the Galaxy workflows developed for clinical data to process wastewater data. In doing so, I integrate existing tools, test these workflows on mock datasets as well as real datasets, and benchmark them against each other and with other solution offered by other researchers.
 
 ---
 
