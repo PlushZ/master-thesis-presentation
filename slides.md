@@ -43,15 +43,25 @@
 
 ## Introduction
 
+<div class="r-stack">
+<span class="fragment fade-out" data-fragment-index="0">
 <small>SARS-CoV-2 evolution</small>
 <img src="img/intro/nextstrain_phylo.png" alt="nextstrain"/>
 <small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -1%;">Source: nextstrain.org</small>
+</span>
+<span class="fragment current-visible" data-fragment-index="0">
+<small>SARS-CoV-2 geography</small>
+<img src="img/intro/nextstrain_geo.png" alt="nextstrain"/>
+</span>
+</div>
 
 Note:
-- >640 million people affected by SARS-CoV-2 pandemic after almost 3 years after the first report of SARS-CoV-2 in Wuhan, China. SARS-CoV-2 is a virus that causes COVID-19 disease. In the first year of the Coronavirus pandemic, the virus did not change much. From approximately summer of 2020 on, SARS-CoV-2’s family tree grew increasingly complex.
-- The main trunk sprouted branches for a number of variants. Gamma, lambda, and mu variants appeared (although none spread worldwide). The tree’s canopy was formed by dozens of branches (fig). Researchers track the SARS-CoV-2 variants with mutations that are clinically or epidemiologically significant. Detecting variants in a virus is important, one can determine if new variants are emerging or existing ones are spreading. In particular, variants with the potential or demonstrated ability to be more transmissible, immune evasive. On-going pandemic control efforts are challenged by the emergence of SARS-CoV-2 variants with greater transmission potential and/or immunity circumvention.
-- wastewater surveillance has received extensive public attention as a passive monitoring system that complements clinical surveillance.
-- >4000 unique labs submitting data to the GISAID database data have to be immediately analyzed to monitor emergence and spread of new variants as well as understand the viral evolution dynamics.
+- 1
+- >640 million people affected by SARS-CoV-2 pandemic after almost 3 years after the first report of SARS-CoV-2 in Wuhan, China. SARS-CoV-2 is a virus that causes COVID-19 disease. In the first year of the Coronavirus pandemic, the virus did not change much. From approximately spring of 2020 on, SARS-CoV-2’s evolution tree grew increasingly complex.
+- Different branches appeared for a number of variants: Omicron, Gamma, Alpha, Delta and others. Researchers track the SARS-CoV-2 variants with mutations that are clinically or epidemiologically significant. Detecting variants in a virus is important, one can determine if new variants are emerging or existing ones are spreading. In particular, variants with the potential or demonstrated ability to be more transmissible, immune evasive have to be tracked.
+- >4000 unique labs submitting data to the GISAID database
+- submitted data have to be immediately analyzed to monitor emergence and spread of new variants as well as understand the viral evolution dynamics.
+- 2
 - Nevertheless, transparent and freely available infrastructure for such analysis is not present everywhere. It is often the case that infectious disease outbreaks occur in remote areas without adequate infrastructure or in political situations that make unbiased interpretation of results impossible.
 
 ------
@@ -133,6 +143,7 @@ Note:
 </div>
 
 Note:
+- wastewater surveillance has received extensive public attention as a passive monitoring system that complements clinical surveillance.
 - Schematic diagram shows the process of detecting viruses by wws against clinical surveillance.
 - WWS seems to be an effective decision:
 - (+): ww methods allow the detection of outbreaks before the first positive clinical tests are reported
