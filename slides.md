@@ -1,4 +1,3 @@
-<meta charset="utf-8">
 <small>University of Freiburg<br>
 Faculty of Engineering</br>
 Bioinformatics Group</small>
