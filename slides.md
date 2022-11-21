@@ -132,7 +132,7 @@ Note:
 </span>
 <span class="fragment current-visible" data-fragment-index="0">
 
-<img src="img/intro/bots.png" alt="drawing" width="600"/>
+<img src="img/intro/bots.png" alt="drawing" width="800"/>
 <small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -1%;">Source: galaxyproject.org/projects/covid19</small>
 </span>
 </div>
@@ -166,7 +166,7 @@ Note:
 
 **Cons**
 - less accurate detection vs clinical testing
-- data are anonymized
+- data have to be anonymized
 - difficult to quantify the number of infected people
 - cannot show completely unbiased picture because of population mobility
 
