@@ -84,8 +84,7 @@ Note:
 </span>
 </span>
 <span class="fragment">
-<img src="img/intro/sars-surveillance-bioinf-highlight.png" alt="Process diagram with bioinf steps for sars surveillance" width="800"/>
-<small>Main steps to be done for bioinformatics of SARS-CoV-2 surveillance</small>
+<img src="img/intro/sars-surveillance-bioinf-highlight.png" alt="drawing" width="800"/>
 </span>
 
 </div>
