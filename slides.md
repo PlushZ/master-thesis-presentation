@@ -104,7 +104,8 @@ Note:
 - 2
 - Let's look at Bioinformatics part a bit more in detail
 - 3
-- Here is simplified process of bioinformatics steps used to analyze sequenced data for sars-cov-2 surveillance. Tools can differ from one pipeline to another. But the main steps, in general, are more or less the same. 
+- Here is simplified process of bioinformatics steps used to analyze sequenced data for sars-cov-2 surveillance.
+- Tools can differ from one pipeline to another. But the main steps, in general, are more or less the same. 
 - primer trimming, is a specific step for ampliconic datasets. The auxiliary file is used for this step - a BED file specifying the primers used during amplification.
 
 ------
@@ -133,12 +134,14 @@ Note:
 Note:
 - 1
 - Galaxy is one of the process managers that provides transparency, accessibility, reproducibility
-- In order to respond global SARS-CoV-2 emergency, based on Galaxy there were developed **4 workflows** for clinical SARS-CoV-2 data surveillance
-- These Galaxy workflows suggested by Wolfgang Maier and collegues in principle are divided into two stages: 1 - produces summaries on variant calling and mutation annotation, while 2 - interprets and visualize. 
-- Workflows depend on type of input data, library preparation technique used to extract input data and sequencing technology used to obtain reads.
+- In order to respond global SARS-CoV-2 emergency, based on Galaxy, there were developed **4 workflows** for clinical SARS-CoV-2 data surveillance
+- These Galaxy workflows suggested by Wolfgang Maier and collegues depend on type of input data, library preparation technique used to extract input data and sequencing technology used to obtain reads.
 - 2
-- Additionally, Galaxy team has developed **bots** to assist in SARS-CoV-2 surveillance, a viable tool for automating the analysis of a large number of SARS-CoV-2 sequences regularly.
-- Galaxy workflows developed for SARS-CoV-2 clinical surveillance have shown adequate results. There are, however, some limitations. Currently, Galaxy workflows do not focus on wastewater surveillance. Thus, Galaxy workflows can be improved and repurposed to aim for SARS-CoV-2 wastewater surveillance. The current thesis attempts to focus on it.
+- In addition to 4 workflows, Galaxy team has developed **bots** to assist in SARS-CoV-2 surveillance, a viable tool for automating the analysis of a large number of SARS-CoV-2 sequences regularly.
+- Galaxy workflows developed for SARS-CoV-2 clinical surveillance have shown adequate results.
+- There are, however, some limitations.
+- Currently, Galaxy workflows do not focus on wastewater surveillance.
+- Thus, Galaxy workflows can be improved and repurposed to aim for SARS-CoV-2 wastewater surveillance.
 
 ------
 
@@ -155,7 +158,7 @@ Note:
 **Pros**
 - variant detection 2 weeks sooner vs clinical
 - detection in sewage even when SARS-CoV-2 prevalence is low
-- more economical
+- more economical (no clinician involvement)
 - can cover 'seqiencing deserts'
 
 **Cons**
@@ -180,11 +183,10 @@ Note:
 - WWS seems to be an effective decision:
 - (+): ww methods allow the detection of outbreaks before the first positive clinical tests are reported
 - (+): virus RNA is detected in sewage even when COVID-19 prevalence is low
-- (+): wws is more economical than clinical testing since it can screen
-- large numbers of people with just a few samples and does not need clinician involvement
+- (+): wws is more economical than clinical testing since it can screen large numbers of people with just a few samples and does not need clinician involvement
 - (+): by using the wws, data can be collected from people who do not have access to healthcare or in places, so-called 'sequencing deserts', around the world where sequencing capacity is limited
 - (-) wws is more challenging to detect viruses accurately in wastewater, compared to clinical testing. Prior to virus concentration, large quantities of sewage sludge should be filtered. Molecular analyses, like PCR, can be hindered by concentration techniques that damage genomic material. Furthermore, sewage contains a wide variety of other microbes and viruses, which may produce false positive results, as well as human DNA.
-- (-): Because it contains human DNA, ww data need to be anonymized due to privacy concerns. However, pathogenic surveillance has the task of linking genetic information with the clinical manifestations and immunological status of patients => wws is limited in this regard, and it is able to provide only coarse population-level information.
+- (-): Sometimes pathogenic surveillance has the task of linking genetic information with the clinical manifestations and immunological status of patients; wws is limited in this regard, and it is able to provide only coarse population-level information.
 - (-): ww detection efforts can be hindered by spreading a pathogen by infected people passing through a region
 
 ------
@@ -224,12 +226,14 @@ Develop pipelines for SARS-CoV-2 wastewater data analysis that is:
 
 Note:
 - 1
-- In this master thesis, I aim to provide a complete workflow based on Galaxy that can ensure data analysis transparency and reproducibility.
+- In this master thesis, I aim to provide a complete, accessible workflow based on Galaxy that can ensure data analysis reproducibility, transparency and regularity.
 - 2
-- I intended to adapt the Galaxy workflows developed for clinical data to process wastewater data, taking subworkflows for preprocessing data, improving these subworkflows.
-- then, integrate existing tools for sars-cov-2 lineages abundances analysis in wastewater samples
-- then, test these workflows on mock datasets as well as real datasets, and benchmark them against each other and with other solution offered by other researchers.
 - for this purpose, I identified the tasks that I intended to complete in this thesis
+- DEVELOP: I intended to adapt the Galaxy workflows developed for clinical data to process wastewater data, 
+    - taking subworkflows for preprocessing data, 
+    - improving these subworkflows.
+    - then, integrate existing tools for sars-cov-2 lineages abundances analysis in wastewater samples
+- then, test these workflows on mock datasets as well as real datasets, and benchmark them against each other and with other solution offered by other researchers.
 
 ---
 
@@ -268,7 +272,7 @@ Note:
 - 1
 - In this thesis 2 wfs were created based on input data: illumina-ampliconic + illumina-metatranscriptomic
 - Freyja and COJAC tools were chosen to be implemented into Galaxy wfs. 
-- -> 2 branches were built: freyja-based and cojac-based
+- 2 branches were built: freyja-based and cojac-based
 - now i want to have a look at both workflows
 - 2
 - I highlighted in yellow the blocks added by me as part of the work on this thesis. 
@@ -314,6 +318,7 @@ Note:
 <img src="img/methods/table-real-data.png" alt="table" width="800"/>
 
 Note:
+- short description of real datasets; US - for bots
 - In order to provide a fairly comprehensive analysis, real-world datasets for experiments in this thesis were selected in such a way that they cover a variety of locations in the world and different time points of collecting samples. 
 - Four datasets: 
 - i) one dataset from California where the samples were collected in 2020 
@@ -346,7 +351,8 @@ Note:
 Note:
 - 1
 - **Barplot:**
-- I analyzed separately samples were single lineage was expected. I compared results on these samples produced by COJAC-based and Freyja-based Galaxy workflows, as well as by one of the workflows that is not Galaxy but one of state-of-the-art solutions called Lineagespot.
+- I analyzed separately samples were **single lineage** was expected. 
+- compared results from **COJAC**-based and **Freyja**-based Galaxy workflows with **Lineagespot**.
 - (brown and purple) All three tools are  quite effective in detecting expected lineage. Nonetheless, in discerning only expected lineage and nothing more, Lineagespot performed the best, compared to COJAC and Freyja. Freyja is effective at detecting expected lineage; however, it always detected some unexpected lineages. COJAC’s results are close to Freyja’s results, but COJAC was able to detect 2 samples with the expected lineage. 
 - (yellow and blue) In 6 samples out of 22 Freyja and COJAC detected either unexpected lineages or nothing 
 - **Venn upset diagram:**
