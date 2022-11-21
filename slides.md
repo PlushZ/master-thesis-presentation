@@ -127,12 +127,12 @@ Note:
 
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
-<img src="img/intro/galaxy-analysis.jpg" alt="drawing" width="600"/>
+<img src="img/intro/galaxy-analysis.jpg" alt="drawing" width="550"/>
 <small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -1%;">Source: Maier et al., 2021</small>
 </span>
 <span class="fragment current-visible" data-fragment-index="0">
 
-<img src="img/intro/bots.jpg" alt="drawing" width="600"/>
+<img src="img/intro/bots.png" alt="drawing" width="600"/>
 <small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -1%;">Source: galaxyproject.org/projects/covid19</small>
 </span>
 </div>
