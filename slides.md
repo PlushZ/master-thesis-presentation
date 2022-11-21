@@ -24,15 +24,9 @@
 
 ### Table of contents
 - <span style="font-size:30px">**Introduction**</span>
-- <span style="font-size:30px">**Methods**</span>
-    - <span style="font-size:20px">Workflows</span>
-    - <span style="font-size:20px">Datasets</span>
-- <span style="font-size:30px">**Results**</span>
-    - <span style="font-size:20px">Mock dataset</span>
-    - <span style="font-size:20px">Real-world dataset</span>
-- <span style="font-size:30px">**Discussion**</span>
-    - <span style="font-size:20px">Limitations</span>
-    - <span style="font-size:20px">Next steps</span>
+- <span style="font-size:30px">**Methods** (Workflows, Datasets)</span>
+- <span style="font-size:30px">**Results** (Mock, Real-world datasets)</span>
+- <span style="font-size:30px">**Discussion** (Limitations, Next steps)</span>
 - <span style="font-size:30px">**Summary**</span>
 
 </div>
