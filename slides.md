@@ -1,7 +1,6 @@
+<div style="text-align: left">
 <small>Albert-Ludwigs University Freiburg</small>
-
 <small>Department of Computer Science</small>
-
 <small>Bioinformatics Group</small>
 
 <small>Master Thesis</small> 
@@ -9,12 +8,12 @@
 ##### **Development and evaluation of Galaxy pipelines for detection of SARS-CoV-2 variants by genomic analysis of wastewater samples**
 
 <small>Author: Polina Polunina</small>
-
 <small>Examiner: Prof. Dr. Rolf Backofen</small>
-
 <small>Second Examiner: Prof. Dr. Wolfgang R. Hess</small>
-
 <small>Advisors: Dr. Berenice Batut, Dr. Wolfgang Maier</small>
+
+<small>Date: 21.11.2022</small>
+</div>
 
 ---
 
