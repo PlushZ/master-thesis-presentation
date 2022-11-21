@@ -58,12 +58,18 @@
 
 Note:
 - 1
-- Almost 3 years after the first report of SARS-CoV-2 in Wuhan, China, more than 640 million people affected by SARS-CoV-2 pandemic. SARS-CoV-2 is a virus that causes COVID-19 disease. In the first year of the Coronavirus pandemic, the virus did not change much. From approximately spring of 2020 on, SARS-CoV-2’s evolution tree grew increasingly complex.
-- Different branches appeared for a number of variants: Omicron, Gamma, Alpha, Delta and others. Researchers track the SARS-CoV-2 variants with mutations that are clinically or epidemiologically significant. Detecting variants in a virus is important, one can determine if new variants are emerging or existing ones are spreading. In particular, variants with the potential or demonstrated ability to be more transmissible, immune evasive have to be tracked.
-- Loads of data are being submitted regularly (more than 4000 unique labs submitting data to the GISAID database)
-- submitted data have to be immediately analyzed to monitor emergence and spread of new variants as well as understand the viral evolution dynamics.
+- Almost 3 years after the first report of SARS-CoV-2 in Wuhan, China, more than 640 million people affected by SARS-CoV-2 pandemic. 
+- SARS-CoV-2 is a virus that causes COVID-19 disease. 
+- In the first year of the Coronavirus pandemic, the virus did not change much. 
+- From approximately spring of 2020 on, SARS-CoV-2’s evolution tree grew increasingly complex.
+- Different branches appeared for a number of variants: Omicron, Gamma, Alpha, Delta and others. 
+- Researchers track the SARS-CoV-2 variants with mutations that are clinically or epidemiologically significant. 
+- Detecting variants in a virus is important to determine if new variants are emerging or existing ones are spreading. 
+- In particular, variants with the potential or demonstrated ability to be more transmissible, immune evasive have to be tracked.
+- Loads of data are being submitted regularly (more than 4000 unique labs submitting data to the GISAID database) and have to be immediately analyzed to monitor emergence and spread of new variants as well as understand the viral evolution dynamics.
 - 2
-- Nevertheless, transparent and freely available infrastructure for such analysis is not present everywhere. It is often the case that infectious disease outbreaks occur in remote areas without adequate infrastructure or in political situations that make unbiased interpretation of results impossible.
+- Nevertheless, transparent and freely available infrastructure for such analysis is not present everywhere. 
+- It is often the case that infectious disease outbreaks occur in remote areas without adequate infrastructure or in political situations that make unbiased interpretation of results impossible.
 
 ------
 
@@ -88,8 +94,13 @@ Note:
 
 Note:
 - 1 
-- A variety of surveillance techniques are available for SARS-CoV-2. Clinical testing is one of the most potent and widespread method. 
-- Here is a simplified process that raughly represents sars-cov-2 surveillance. Sample collection -> Library preparation that can vary depending on type of biological data and final objectives -> sequencing where different techniques ara available to choos depending on data and objectives -> bioinformatics step intended for downstream analysis
+- A variety of surveillance techniques are available for SARS-CoV-2. 
+- Clinical testing is one of the most potent and widespread method. 
+- Here is a simplified process that raughly represents sars-cov-2 surveillance. 
+    - Sample collection
+    - Library preparation that can vary depending on type of biological data and final objectives
+    - sequencing, where different techniques are available to choose depending on data and objectives
+    - bioinformatics step intended for downstream analysis
 - 2
 - Let's look at Bioinformatics part a bit more in detail
 - 3
