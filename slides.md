@@ -215,7 +215,7 @@ Develop pipelines for SARS-CoV-2 wastewater data analysis that is:
 
 </div>
 </span>
-<img class="fragment current-visible" data-fragment-index="0" src="img/intro/tasks-2.png" alt="drawing" width="600"/>
+<img class="fragment current-visible" data-fragment-index="0" src="img/intro/tasks-2.png" alt="drawing" width="500"/>
 
 Note:
 - 1
@@ -451,7 +451,7 @@ Note:
 ### Summary
 
 <small>Development and evaluation of Galaxy pipelines for detection of SARS-CoV-2 variants by genomic analysis of wastewater samples</small>
-<img src="img/summary/tasks-done-2.png" alt="drawing" width="600"/>
+<img src="img/summary/tasks-done-2.png" alt="drawing" width="500"/>
 
 Note:
 - in accordance with the tasks that were set while working on this thesis, here is a list of completed tasks and the intention to complete unfinished tasks
