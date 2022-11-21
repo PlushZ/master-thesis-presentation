@@ -216,7 +216,16 @@ Develop pipelines for SARS-CoV-2 wastewater data analysis that is:
 </div>
 </span>
 
-<img class="fragment current-visible" data-fragment-index="0" src="img/intro/tasks.png" alt="drawing" width="600"/>
+<!-- <img class="fragment current-visible" data-fragment-index="0" src="img/intro/tasks.png" alt="drawing" width="600"/> -->
+<ul class="requirements">
+    <li>
+    <p><i class="fa fa-minus-square-o"></i> Automatize the configuration and deployment of the instance with Ansible</p>
+    <p><i class="fa fa-minus-square-o"></i> Add tools in development, databases, workflows</p>
+    <p><i class="fa fa-square-o"></i> Validate workflows on datasets (local, mock, ...)</p>
+    <p><i class="fa fa-minus-square-o"></i> Integrate tools and workflows to the ToolShed</p>
+    <p><i class="fa fa-minus-square-o"></i> Automatize tool integration from ToolShed with Ansible </p>
+    <p><i class="fa fa-minus-square-o"></i> Complete the documentation </p>
+</li>
 
 Note:
 - 1
