@@ -201,27 +201,10 @@ Note:
 
 ### Aim of the thesis
 
-<div class="r-stack">
-<span class="fragment fade-out" data-fragment-index="0">
-<div style="text-align: left">
-<small>
-
-Develop pipelines for SARS-CoV-2 wastewater data analysis that is:
-- complete
-- accessible
-- reproducible
-- transparent
-- regular
-
-</small>
-</div>
-</span>
-<img class="fragment current-visible" data-fragment-index="0" src="img/intro/tasks-2.png" alt="drawing" width="500"/>
+<img src="img/intro/tasks-2.png" alt="drawing" width="500"/>
 
 Note:
-- 1
 - In this master thesis, I aim to provide a complete, accessible workflow based on Galaxy that can ensure data analysis reproducibility, transparency and regularity.
-- 2
 - for this purpose, I identified the tasks that I intended to complete in this thesis
 - DEVELOP: I intended to adapt the Galaxy workflows developed for clinical data to process wastewater data, 
     - taking subworkflows for preprocessing data, 
@@ -237,20 +220,7 @@ Note:
 
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
-<div style="text-align: left">
-
-2 workflows:
-- metatranscriptomic-illumina
-- ampliconic-illumina
-
-2 branches:
-- Freyja-based
-- COJAC-based
-
-Extra steps:
-- decontamination step
-- taxonomic analysis
-</div>
+<img src="img/methods/sars-surveillance-bioinf-ww-methods.png" alt="drawing" width="800"/>
 </span>
 <span class="fragment current-visible" data-fragment-index="0">
 <img src="img/methods/methods-ampliconic.png" alt="drawing" width="1000"/>
@@ -264,15 +234,15 @@ Extra steps:
 
 Note:
 - 1
-- In this thesis 2 wfs were created based on input data: illumina-ampliconic + illumina-metatranscriptomic
-- Freyja and COJAC tools were chosen to be implemented into Galaxy wfs. 
-- 2 branches were built: freyja-based and cojac-based
+- In this thesis I focused on the bioinformatics step for sars-cov-2 wastewater surveillance
+- 2 wfs were created based on input data: illumina-ampliconic + illumina-metatranscriptomic
 - now i want to have a look at both workflows
 - 2
 - I highlighted in yellow the blocks added by me as part of the work on this thesis. 
 - first wf was built for ampliconic input data
-- talk about extra steps and then branches
+- talk about extra steps and then branches (steps in branches)
 - wrappers were written with planemo (a command-line application for creating Galaxy tools, workflows, and deploying tools to Galaxy)
+- I put a lot of effort into creating the user interface of these tools in Galaxy so that they are available for use outside of these special workflows
 - 3
 - second wf was built for metatranscriptomic data
 - only freyja, cojac was not used because cojac can work only fro ampliconic data
