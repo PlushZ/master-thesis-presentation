@@ -215,30 +215,7 @@ Develop pipelines for SARS-CoV-2 wastewater data analysis that is:
 
 </div>
 </span>
-
-<!-- <img class="fragment current-visible" data-fragment-index="0" src="img/intro/tasks.png" alt="drawing" width="600"/>-->
-<div style="text-align: left">
-<small>
-Tasks:
-
-- **Research**
-    - Evaluate **needs**
-    - Compare **state-of-the-art** solutions
-- **Implement tools**
-    - Define **tools** needed
-    - Integrate tools into **Galaxy**
-- **Develop Galaxy workflows for wastewater data**
-- **Test and evaluate workflows**
-    - **Test** on **mock** and **real** data
-    - **Evaluate** results on **mock** and **real** data
-    - Benchmark results with **state-of-the-art**
-- **Open workflows to public** 
-    - Publish on **WorkflowHub**
-    - Connect workflows to **Galaxy bots**
-    - Create tutorials on **Galaxy Training!**
-
-</small>
-</div>
+<img class="fragment current-visible" data-fragment-index="0" src="img/intro/tasks-2.png" alt="drawing" width="600"/>
 
 Note:
 - 1
@@ -474,7 +451,7 @@ Note:
 ### Summary
 
 <small>Development and evaluation of Galaxy pipelines for detection of SARS-CoV-2 variants by genomic analysis of wastewater samples</small>
-<img src="img/summary/tasks-done-without-publish.png" alt="drawing" width="600"/>
+<img src="img/summary/tasks-done-2.png" alt="drawing" width="600"/>
 
 Note:
 - in accordance with the tasks that were set while working on this thesis, here is a list of completed tasks and the intention to complete unfinished tasks
