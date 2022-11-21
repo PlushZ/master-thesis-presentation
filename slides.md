@@ -8,10 +8,11 @@ Master Thesis</small>
 
 <div style="text-align: left">
 <br><br>
-<small><b>Author: </b>&nbsp&nbsp&nbspPolina Polunina<br>
-<b>Examiner: </b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspProf. Dr. Rolf Backofen<br>
+<small>
+<b>Author: </b>&emspPolina Polunina<br>
+<b>Examiner: </b>&emspProf. Dr. Rolf Backofen<br>
 <b>Second Examiner: </b>&nbspProf. Dr. Wolfgang R. Hess<br>
-<b>Advisors: </b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDr. Bérénice Batut, Dr. Wolfgang Maier<br><br>
+<b>Advisors: </b>&emspDr. Bérénice Batut, Dr. Wolfgang Maier<br><br>
 
 <b>Date:</b> 24.11.2022</small>
 </div>
