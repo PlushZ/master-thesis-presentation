@@ -281,7 +281,7 @@ Note:
 ### Results on mock dataset
 #### Single lineage expected
 
-<img src="img/methods/table-mock-data.png" alt="table" width="600"/>
+<img src="img/results/table-mock-data-sing.png" alt="table" width="600"/>
 
 Note:
 - First I analyzed results for samples that contain only one lineage
