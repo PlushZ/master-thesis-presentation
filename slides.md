@@ -75,6 +75,18 @@ Note:
 
 ### SARS-CoV-2 clinical surveillance
 
+<img src="img/intro/ww-process-clinical.png" alt="drawing" width="1000"/>
+
+Note:
+- A variety of surveillance techniques are available for SARS-CoV-2. 
+- Clinical testing is one of the most potent and widespread method for sars-cov-2 surveillance. 
+- Schematic diagram shows the process of detecting viruses by clinical surveillance, from the infection moment to bioinformatics data analysis
+- do not explain!
+
+------
+
+### SARS-CoV-2 clinical surveillance
+
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
 <img src="img/intro/sars-surveillance-bioinf.png" alt="drawing" width="800"/>
@@ -152,46 +164,16 @@ Note:
 
 ### Wastewater surveillance
 
-<div class="r-stack">
-<img class="fragment fade-out" data-fragment-index="0" src="img/intro/ww-process.png" alt="drawing" width="1000"/>
-<span class="fragment current-visible" data-fragment-index="0">
-<div style="text-align: left">
-<small>
-
-**Pros**
-- variant detection 2 weeks sooner vs clinical
-- detection in sewage even when SARS-CoV-2 prevalence is low
-- more economical (no clinician involvement)
-- can cover 'seqiencing deserts'
-
-**Cons**
-- less accurate detection vs clinical testing
-- data have to be anonymized
-- difficult to quantify the number of infected people
-- cannot show completely unbiased picture because of population mobility
-
-</small>
-</div>
-
-</span>
-</div>
+<img src="img/intro/ww-process-ww.png" alt="drawing" width="1000"/>
 
 Note:
 - 1
-- wastewater surveillance has received extensive public attention as a passive monitoring system that complements clinical surveillance.
+- wastewater surveillance is another surveillance method for sars-cov2
+- wws has received extensive public attention as a passive monitoring system that complements clinical surveillance.
 - Schematic diagram shows the process of detecting viruses by WWS against clinical surveillance.
 - upper branch shows a clinical surveillance of sars-cov-2, from the infection moment to bioinformatics data analysis
 - lower branch, in turn, represents wastewater surveillance
-- DO NOT explain in detail
-- 2
-- WWS seems to be an effective decision:
-- (+): ww methods allow the detection of outbreaks before the first positive clinical tests are reported
-- (+): virus RNA is detected in sewage even when COVID-19 prevalence is low
-- (+): wws is more economical than clinical testing since it can screen large numbers of people with just a few samples and does not need clinician involvement
-- (+): by using the wws, data can be collected from people who do not have access to healthcare or in places, so-called 'sequencing deserts', around the world where sequencing capacity is limited
-- (-) wws is more challenging to detect viruses accurately in wastewater, compared to clinical testing. Prior to virus concentration, large quantities of sewage sludge should be filtered. Molecular analyses, like PCR, can be hindered by concentration techniques that damage genomic material. Furthermore, sewage contains a wide variety of other microbes and viruses, which may produce false positive results, as well as human DNA.
-- (-): Sometimes pathogenic surveillance has the task of linking genetic information with the clinical manifestations and immunological status of patients; wws is limited in this regard, and it is able to provide only coarse population-level information.
-- (-): ww detection efforts can be hindered by spreading a pathogen by infected people passing through a region
+- Explain a bit
 
 ------
 
