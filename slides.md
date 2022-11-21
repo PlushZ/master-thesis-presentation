@@ -305,9 +305,14 @@ Workflows were tested on:
 <img src="img/methods/table-mock-data.png" alt="table" width="600"/>
 
 Note:
-- Generation of mock dataset: Delta, BA.1, BA.2, recombinant (lineages combined from 3 lineages) as well as synthetic lineage;
+- Generation of mock dataset by obtaining genomes from Pango designation list: 
+    - forcus on 3 real lineages Delta, BA.1, BA.2, 
+    - recombinant (lineages combined from 3 lineages)
+    - synthetic lineage to mimic the effect of unknown lineage;
+    - (opt) Synthetic amplicons created using ARTICv4.1 primers
+    - (opt) Synthetic reads created using error models based on 150 or 250bp NovaSeq reads
 - Single lineage vs Two lineages
-- Comparison Freyja, COJAC, and Lineagespot results with expected results
+- Comparison Freyja, COJAC, and Lineagespot results with expected result
 
 ------
 
@@ -353,16 +358,27 @@ Note:
 - **Barplot:**
 - I analyzed separately samples were **single lineage** was expected. 
 - compared results from **COJAC**-based and **Freyja**-based Galaxy workflows with **Lineagespot**.
-- (brown and purple) All three tools are  quite effective in detecting expected lineage. Nonetheless, in discerning only expected lineage and nothing more, Lineagespot performed the best, compared to COJAC and Freyja. Freyja is effective at detecting expected lineage; however, it always detected some unexpected lineages. COJAC’s results are close to Freyja’s results, but COJAC was able to detect 2 samples with the expected lineage. 
-- (yellow and blue) In 6 samples out of 22 Freyja and COJAC detected either unexpected lineages or nothing 
+- (brown and purple) 
+    - All three tools are  quite effective in detecting expected lineage. 
+    - Nonetheless, in discerning **only expected** lineage and nothing more, **Lineagespot** performed the best, compared to COJAC and Freyja. 
+    - **Freyja** is effective at detecting expected lineage; however, it always detected some **unexpected lineages**. 
+    - **COJAC** results are close to Freyja results, but COJAC was able to detect 2 samples with the expected lineage. 
+- (yellow and blue) 
+    - In 6 samples out of 22 Freyja and COJAC detected either unexpected lineages or nothing 
 - **Venn upset diagram:**
-- Using venn upset diagram, I analyzed intersections between sets of results and determined which samples were correctly detected by which tool (in terms of the lineages expected) and how similar the results were between tools.
-- Each column corresponds to a set of obtained results from certain tools (COJAC, Lineagespot, Freyja), and bar charts on top show the size of the set of tool’s results. The first row in the figure is completely empty, while 1 sample is expected to be detected but was not. This specigic sample is expected to contain only unknown synthetic lineage.
+- intersections between sets of results and determined which samples were correctly detected by which tool (in terms of the lineages expected) and how similar the results were between tools.
+- Each column corresponds to a set of obtained results from certain tools (COJAC, Lineagespot, Freyja), and bar charts on top show the size of the set of tool’s results. 
+- The first row in the figure is completely empty, while 1 sample is expected to be detected but was not. This specific sample is expected to contain only unknown synthetic lineage.
 - 2
-- Parallel coordinates plot was generated for 22 samples where single lineage was expected.
-- For a single lineage group of samples compare Delta, BA.1, BA.2 lineage proportions detected by Freyja and COJAC with each other as well as with expected proportion. The left axis represents the expected proportion of the lineage, the middle axis represents the proportion of the lineage detected by COJAC, while the right axis represents the proportion of the lineage detected by Freyja.
+- Parallel coordinates plot was generated for **22** samples where **single lineage** was expected.
+- One plot per lineage: Delta, BA.1, BA.2 
+- to show **lineage proportions** detected by Freyja and COJAC compared with expected proportion. 
+- The left axis represents the expected proportion of the lineage, the middle axis represents the proportion of the lineage detected by COJAC, while the right axis represents the proportion of the lineage detected by Freyja.
 - Overall, proportions of lineages expected and detected by COJAC and Freyja close to each other
-- In one curious case for 2 samples BA.1 lineage was not expected but COJAC detected its proportion close to 1. These two samples containg recombinant of all 3 lineages (Delta, BA.1, BA.2). For these 2 samples, it was expected to detect the recombination of three (BA.1, BA.2, and Delta) lineages, but not each of these lineages separately. This recombinant contains BA.1 lineage mutations, and that’s why COJAC misinterpreted results for these samples.
+- In one curious case:
+    - for 1 sample, BA.1 lineage was not expected but COJAC detected its proportion close to 1.
+    - This sample containg recombinant of all 3 lineages (Delta, BA.1, BA.2).
+    - it was expected to detect the recombination of three lineage mutations (BA.1, BA.2, and Delta) but COJAC misinterpreted results for this sample.
 
 ------
 
