@@ -256,11 +256,11 @@ Note:
 <div style="text-align: left">
 
 Workflows were tested on:
-- mock dataset (100 samples)
+- **mock** dataset (**100** samples)
     - Single lineage
     - Two lineages
     - Three lineages
-- four real-world datasets (overall, 817 samples)
+- four **real-world** datasets (overall, **817** samples)
 </div>
 
 ------
