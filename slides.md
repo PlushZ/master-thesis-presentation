@@ -136,17 +136,8 @@ Note:
 
 ### Galaxy effort for clinical surveillance
 
-<div class="r-stack">
-<span class="fragment fade-out" data-fragment-index="0">
 <img src="img/intro/galaxy-analysis.jpg" alt="drawing" width="550"/>
 <small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -1%;">Source: Maier et al., 2021</small>
-</span>
-<span class="fragment current-visible" data-fragment-index="0">
-
-<img src="img/intro/bots.png" alt="drawing" width="800"/>
-<small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -1%;">Source: galaxyproject.org/projects/covid19</small>
-</span>
-</div>
 
 Note:
 - 1
@@ -154,7 +145,15 @@ Note:
 - In order to respond global SARS-CoV-2 emergency, based on Galaxy, there were developed **4 workflows** for clinical SARS-CoV-2 data surveillance
 - point to input data, then to 4 workflows in picture
 - These Galaxy workflows suggested by Wolfgang Maier and collegues depend on type of input data, library preparation technique used to extract input data and sequencing technology used to obtain reads.
-- 2
+
+------
+
+### Galaxy effort for clinical surveillance
+
+<img src="img/intro/bots.png" alt="drawing" width="800"/>
+<small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -1%;">Source: galaxyproject.org/projects/covid19</small>
+
+Note:
 - In addition to 4 workflows, Galaxy team has developed **bots** to assist in SARS-CoV-2 surveillance, a viable tool for automating the analysis of a large number of SARS-CoV-2 sequences regularly.
 
 ------
@@ -218,32 +217,34 @@ Note:
 
 ### Methods
 
-<div class="r-stack">
-<span class="fragment fade-out" data-fragment-index="0">
 <img src="img/methods/sars-surveillance-bioinf-ww-methods.png" alt="drawing" width="800"/>
-</span>
-<span class="fragment current-visible" data-fragment-index="0">
-<img src="img/methods/methods-ampliconic.png" alt="drawing" width="1000"/>
-</span>
-</span>
-<span class="fragment">
-<img src="img/methods/methods-metatranscriptomic.png" alt="drawing" width="1000"/>
-</span>
-
-</div>
 
 Note:
 - 1
 - In this thesis I focused on the bioinformatics step for sars-cov-2 wastewater surveillance
 - 2 wfs were created based on input data: illumina-ampliconic + illumina-metatranscriptomic
 - now i want to have a look at both workflows
-- 2
+
+------
+
+### Methods
+
+<img src="img/methods/methods-ampliconic.png" alt="drawing" width="1000"/>
+
+Note:
 - I highlighted in yellow the blocks added by me as part of the work on this thesis. 
 - first wf was built for ampliconic input data
 - talk about extra steps and then branches (steps in branches)
 - wrappers were written with planemo (a command-line application for creating Galaxy tools, workflows, and deploying tools to Galaxy)
 - I put a lot of effort into creating the user interface of these tools in Galaxy so that they are available for use outside of these special workflows
-- 3
+
+------
+
+### Methods
+
+<img src="img/methods/methods-metatranscriptomic.png" alt="drawing" width="1000"/>
+
+Note:
 - second wf was built for metatranscriptomic data
 - only freyja, cojac was not used because cojac can work only fro ampliconic data
 
@@ -295,17 +296,9 @@ Note:
 ### Results on mock dataset
 #### Single lineage expected
 
-<div class="r-stack">
-<span class="fragment fade-out" data-fragment-index="0">
 <img src="img/results/singlin-bar-venn.png" alt="drawing" width="800"/>
-</span>
-<span class="fragment current-visible" data-fragment-index="0">
-<img src="img/results/pc-singlin.png" alt="drawing" width="800"/>
-</span>
-</div>
 
 Note:
-- 1
 - **Barplot:**
 - I analyzed separately samples were **single lineage** was expected. 
 - compared results from **COJAC**-based and **Freyja**-based Galaxy workflows with **Lineagespot**.
@@ -320,7 +313,15 @@ Note:
 - intersections between sets of results and determined which samples were correctly detected by which tool (in terms of the lineages expected) and how similar the results were between tools.
 - Each column corresponds to a set of obtained results from certain tools (COJAC, Lineagespot, Freyja), and bar charts on top show the size of the set of tool’s results. 
 - The first row in the figure is completely empty, while 1 sample is expected to be detected but was not. This specific sample is expected to contain only unknown synthetic lineage.
-- 2
+
+------
+
+### Results on mock dataset
+#### Single lineage expected
+
+<img src="img/results/pc-singlin.png" alt="drawing" width="800"/>
+
+Note:
 - Parallel coordinates plot was generated for **22** samples where **single lineage** was expected.
 - One plot per lineage: Delta, BA.1, BA.2 
 - to show **lineage proportions** detected by Freyja and COJAC compared with expected proportion. 
@@ -330,6 +331,7 @@ Note:
     - for 1 sample, BA.1 lineage was not expected but COJAC detected its proportion close to 1.
     - This sample containg recombinant of all 3 lineages (Delta, BA.1, BA.2).
     - it was expected to detect the recombination of three lineage mutations (BA.1, BA.2, and Delta) but COJAC misinterpreted results for this sample.
+
 
 ------
 
