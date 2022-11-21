@@ -61,7 +61,7 @@ Note:
 - Almost 3 years after the first report of SARS-CoV-2 in Wuhan, China, more than 640 million people affected by SARS-CoV-2 pandemic. 
 - SARS-CoV-2 is a virus that causes COVID-19 disease. 
 - In the first year of the Coronavirus pandemic, the virus did not change much. 
-- From approximately spring of 2020 on, SARS-CoV-2’s evolution tree grew increasingly complex.
+- From approximately spring of 2020 on, SARS-CoV-2's evolution tree grew increasingly complex.
 - Different branches appeared for a number of variants: Omicron, Gamma, Alpha, Delta and others. 
 - Researchers track the SARS-CoV-2 variants with mutations that are clinically or epidemiologically significant. 
 - Detecting variants in a virus is important to determine if new variants are emerging or existing ones are spreading. 
@@ -102,7 +102,7 @@ Note:
     - sequencing, where different techniques are available to choose depending on data and objectives
     - bioinformatics step intended for downstream analysis
 - 2
-- Let's look at Bioinformatics part a bit more in detail
+- Lets look at Bioinformatics part a bit more in detail
 - 3
 - Here is simplified process of bioinformatics steps used to analyze sequenced data for sars-cov-2 surveillance.
 - Tools can differ from one pipeline to another. But the main steps, in general, are more or less the same. 
@@ -179,6 +179,7 @@ Note:
 - Schematic diagram shows the process of detecting viruses by WWS against clinical surveillance.
 - upper branch shows a clinical surveillance of sars-cov-2, from the infection moment to bioinformatics data analysis
 - lower branch, in turn, represents wastewater surveillance
+- DO NOT explain in detail
 - 2
 - WWS seems to be an effective decision:
 - (+): ww methods allow the detection of outbreaks before the first positive clinical tests are reported
