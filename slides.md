@@ -96,9 +96,10 @@ Note:
 - Here is a simplified process that raughly represents sars-cov-2 surveillance. 
     - Sample collection
     - Library preparation that can vary depending on type of biological data and final objectives
+    - 2
     - sequencing, where different techniques are available to choose depending on data and objectives
     - bioinformatics step intended for downstream analysis, at this step we try to identify sars-cov-2 and different variants present in collected samples using different bioinf tools
-- 2
+- 3
 - Lets look at Bioinformatics part a bit more in detail
 
 ------
@@ -115,12 +116,14 @@ Note:
 - But the main steps, in general, are more or less the same.
 - talk about steps (raw data are sequencing data)
 - primer trimming, is a specific step for ampliconic datasets. The auxiliary file is used for this step - a BED file specifying the primers used during amplification.
+- variant calling should be run where variants from sequence data are identified.
+- Variant calling step is followed by mutation annotation. The data is not changed; here, only format is changed to be more readable.
 
 ------
 
 <span class="menu-title" style="display: none">Galaxy effort</span>
 
-#### Galaxy effort for clinical surveillance
+### Galaxy effort for clinical surveillance
 
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
@@ -128,28 +131,20 @@ Note:
 <small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -1%;">Source: Maier et al., 2021</small>
 </span>
 <span class="fragment current-visible" data-fragment-index="0">
-<div style="text-align: left">
 
-- transparency, accessibility, reproducibility
-- 4 workflows for **clinical** SARS-CoV-2 data surveillance can be repurposed
-- automated **bots** for regular data analysis
-
-</div>
-
+<img src="img/intro/bots.jpg" alt="drawing" width="600"/>
+<small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -1%;">Source: galaxyproject.org/projects/covid19</small>
 </span>
 </div>
 
 Note:
 - 1
-- Galaxy is one of the process managers that provides transparency, accessibility, reproducibility
+- Galaxy is one of the platforms for data analysis that provides transparency, accessibility, reproducibility
 - In order to respond global SARS-CoV-2 emergency, based on Galaxy, there were developed **4 workflows** for clinical SARS-CoV-2 data surveillance
+- point to input data, then to 4 workflows in picture
 - These Galaxy workflows suggested by Wolfgang Maier and collegues depend on type of input data, library preparation technique used to extract input data and sequencing technology used to obtain reads.
 - 2
 - In addition to 4 workflows, Galaxy team has developed **bots** to assist in SARS-CoV-2 surveillance, a viable tool for automating the analysis of a large number of SARS-CoV-2 sequences regularly.
-- Galaxy workflows developed for SARS-CoV-2 clinical surveillance have shown adequate results.
-- There are, however, some limitations.
-- Currently, Galaxy workflows do not focus on wastewater surveillance.
-- Thus, Galaxy workflows can be improved and repurposed to aim for SARS-CoV-2 wastewater surveillance.
 
 ------
 
