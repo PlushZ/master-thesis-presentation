@@ -278,23 +278,6 @@ Note:
 - Single lineage vs Two lineages
 - Comparison Freyja, COJAC, and Lineagespot results with expected result
 
-------
-
-<span class="menu-title" style="display: none">Real-world dataset</span>
-
-### Real-world dataset
-
-<img src="img/methods/table-real-data.png" alt="table" width="800"/>
-
-Note:
-- short description of real datasets; US - for bots
-- In order to provide a fairly comprehensive analysis, real-world datasets for experiments in this thesis were selected in such a way that they cover a variety of locations in the world and different time points of collecting samples. 
-- Four datasets: 
-- i) one dataset from California where the samples were collected in 2020 
-- ii) a dataset from the UK, with data collected in sewage across six major urban centers in the UK (with a total population equivalent of 3 million) around the same time period (late spring - early summer of 2020) as the Californian dataset
-- iii) a dataset from wastewater treatment facilities across Ontario, Canada collected in the end of 2021 and beginning of 2022
-- iv) a dataset from the US, one of the most extensive dataset with 418 samples already and regularly new samples are being added (last samples being from October of 2022). This dataset would be interesting to connect to Galaxy bots for regilar analysis
-
 ---
 
 <span class="menu-title" style="display: none">Results</span>
@@ -362,9 +345,23 @@ Note:
 
 ------
 
-<span class="menu-title" style="display: none">Results on real dataset</span>
+<span class="menu-title" style="display: none">Results on real-world dataset</span>
 
-### Results on real dataset
+### Results on real-world dataset
+
+<img src="img/methods/table-real-data.png" alt="table" width="800"/>
+
+Note:
+- short description of real datasets; US - for bots
+- In order to provide a fairly comprehensive analysis, real-world datasets for experiments in this thesis were selected in such a way that they cover a variety of locations in the world and different time points of collecting samples. 
+- Four datasets: 
+- i) one dataset from California where the samples were collected in 2020 
+- ii) a dataset from the UK, with data collected in sewage across six major urban centers in the UK (with a total population equivalent of 3 million) around the same time period (late spring - early summer of 2020) as the Californian dataset
+- iii) a dataset from wastewater treatment facilities across Ontario, Canada collected in the end of 2021 and beginning of 2022
+- iv) a dataset from the US, one of the most extensive dataset with 418 samples already and regularly new samples are being added (last samples being from October of 2022). This dataset would be interesting to connect to Galaxy bots for regilar analysis
+
+------
+
 #### UK dataset
 
 <img src="img/results/uk-freyja-dash-early-detection.png" alt="drawing" width="800"/>
