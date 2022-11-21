@@ -7,7 +7,6 @@ Master Thesis</small>
 ##### **Development and evaluation of Galaxy pipelines for detection of SARS-CoV-2 variants by genomic analysis of wastewater samples**
 
 <div style="text-align: left">
-<br><br>
 <small>
 <b>Author: </b><br>Polina Polunina<br>
 <b>Examiner: </b><br>Prof. Dr. Rolf Backofen<br>
