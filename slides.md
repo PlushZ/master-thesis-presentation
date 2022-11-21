@@ -77,16 +77,14 @@ Note:
 
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
-<img class="fragment fade-out" data-fragment-index="1" src="img/intro/sars-surveillance-bioinf.png" alt="drawing" width="800"/>
-<img class="fragment fade-out" data-fragment-index="1" src="img/intro/sars-surveillance-bioinf-lib-prep.png" alt="drawing" width="800"/>
-<img class="fragment fade-out" data-fragment-index="1" src="img/intro/sars-surveillance-bioinf-seq.png" alt="drawing" width="800"/>
+<img src="img/intro/sars-surveillance-bioinf.png" alt="drawing" width="800"/>
 </span>
 <span class="fragment current-visible" data-fragment-index="0">
-<img src="img/intro/sars-surveillance-bioinf-highlight.png" alt="drawing" width="800"/>
+<img src="img/intro/sars-surveillance-bioinf-seq.png" alt="drawing" width="800"/>
 </span>
 </span>
 <span class="fragment">
-<img src="img/intro/sars-surveillance-bioinf-last.png" alt="Process diagram with bioinf steps for sars surveillance" width="800"/>
+<img src="img/intro/sars-surveillance-bioinf-highlight.png" alt="Process diagram with bioinf steps for sars surveillance" width="800"/>
 <small>Main steps to be done for bioinformatics of SARS-CoV-2 surveillance</small>
 </span>
 
@@ -103,7 +101,16 @@ Note:
     - bioinformatics step intended for downstream analysis, at this step we try to identify sars-cov-2 and different variants present in collected samples using different bioinf tools
 - 2
 - Lets look at Bioinformatics part a bit more in detail
-- 3
+
+------
+
+### SARS-CoV-2 clinical surveillance
+
+
+<img src="img/intro/sars-surveillance-bioinf-last.png" alt="Process diagram with bioinf steps for sars surveillance" width="800"/>
+<small>Main steps to be done for bioinformatics of SARS-CoV-2 surveillance</small>
+
+Note:
 - Here is simplified process of bioinformatics steps used to analyze sequenced data for sars-cov-2 surveillance.
 - Tools can differ from one pipeline to another.
 - But the main steps, in general, are more or less the same.
