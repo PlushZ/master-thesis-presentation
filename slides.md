@@ -148,7 +148,7 @@ Note:
 
 ------
 
-### Galaxy effort for clinical surveillance
+### Galaxy bots
 
 <img src="img/intro/bots.png" alt="drawing" width="800"/>
 <small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -1%;">Source: galaxyproject.org/projects/covid19</small>
