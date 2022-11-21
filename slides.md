@@ -217,22 +217,28 @@ Develop pipelines for SARS-CoV-2 wastewater data analysis that is:
 </span>
 
 <!-- <img class="fragment current-visible" data-fragment-index="0" src="img/intro/tasks.png" alt="drawing" width="600"/>-->
-                    <section data-markdown>
-                        <script type="text/template">
-                            ### Galaxy
+<div style="text-align: left">
+<small>
+Tasks:
 
-                            Fit main requirements
+- **Research**
+    - Evaluate **needs**
+    - Compare **state-of-the-art** solutions
+- **Implement tools**
+    - Define **tools** needed
+    - Integrate tools into **Galaxy**
+- **Develop Galaxy workflows for wastewater data**
+- **Test and evaluate workflows**
+    - **Test** on **mock** and **real** data
+    - **Evaluate** results on **mock** and **real** data
+    - Benchmark results with **state-of-the-art**
+- **Open workflows to public** 
+    - Publish on **WorkflowHub**
+    - Connect workflows to **Galaxy bots**
+    - Create tutorials on **Galaxy Training!**
 
-                            <ul class="requirements">
-                                <li>
-                                    <p><i class="fa fa-check-square-o"></i> Generation of workflow with numerous tools</p>
-                                    <p><i class="fa fa-check-square-o"></i> Easy use</p>
-                                    <p><i class="fa fa-check-square-o"></i> Flexibility and modularity</p>
-                                    <p><i class="fa fa-check-square-o"></i> Incorporation of wanted/needed tools and databases
-                                </li>
-                            </ul>
-                        </script>
-                    </section>
+</small>
+</div>
 
 Note:
 - 1
