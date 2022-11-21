@@ -18,7 +18,7 @@ Master Thesis</small>
 </div>
 
 Note:
-- I want to welcome you all on the presentation of my master thesis 'Development bla-bla ..' which I worked on with the supervision of Dr. Bérénice Batut, Dr. Wolfgang Maier
+- I want to welcome you all to the presentation of my master thesis 'Development bla-bla ..' which I worked on with the supervision of Dr. Bérénice Batut, Dr. Wolfgang Maier
 
 ---
 
@@ -66,8 +66,8 @@ Note:
 - In particular, variants with the potential or demonstrated ability to be more transmissible, immune evasive have to be tracked.
 - Loads of data are being submitted regularly (more than 4000 unique labs submitting data to the GISAID database) and have to be immediately analyzed to monitor emergence and spread of new variants as well as understand the viral evolution dynamics.
 - 2
-- Nevertheless, transparent and freely available infrastructure for such analysis is not present everywhere. 
-- It is often the case that infectious disease outbreaks occur in remote areas without adequate infrastructure or in political situations that make unbiased interpretation of results impossible.
+- SARS-CoV-2 variants are spread worldwide. 
+- However, it is often the case that some variants occur in remote areas without adequate infrastructure or in political situations that make unbiased sars-cov-2 surveillance impossible.
 
 ------
 
@@ -77,7 +77,9 @@ Note:
 
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
-<img src="img/intro/sars-surveillance-bioinf.png" alt="drawing" width="800"/>
+<img class="fragment fade-out" data-fragment-index="1" src="img/intro/sars-surveillance-bioinf.png" alt="drawing" width="800"/>
+<img class="fragment fade-out" data-fragment-index="1" src="img/intro/sars-surveillance-bioinf-lib-prep.png" alt="drawing" width="800"/>
+<img class="fragment fade-out" data-fragment-index="1" src="img/intro/sars-surveillance-bioinf-seq.png" alt="drawing" width="800"/>
 </span>
 <span class="fragment current-visible" data-fragment-index="0">
 <img src="img/intro/sars-surveillance-bioinf-highlight.png" alt="drawing" width="800"/>
@@ -98,12 +100,14 @@ Note:
     - Sample collection
     - Library preparation that can vary depending on type of biological data and final objectives
     - sequencing, where different techniques are available to choose depending on data and objectives
-    - bioinformatics step intended for downstream analysis
+    - bioinformatics step intended for downstream analysis, at this step we try to identify sars-cov-2 and different variants present in collected samples using different bioinf tools
 - 2
 - Lets look at Bioinformatics part a bit more in detail
 - 3
 - Here is simplified process of bioinformatics steps used to analyze sequenced data for sars-cov-2 surveillance.
-- Tools can differ from one pipeline to another. But the main steps, in general, are more or less the same. 
+- Tools can differ from one pipeline to another.
+- But the main steps, in general, are more or less the same.
+- talk about steps (raw data are sequencing data)
 - primer trimming, is a specific step for ampliconic datasets. The auxiliary file is used for this step - a BED file specifying the primers used during amplification.
 
 ------
