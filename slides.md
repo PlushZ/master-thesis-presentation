@@ -185,7 +185,15 @@ Note:
 
 Note:
 - various state-of-the-art methods already presented to the public
-- They can be divided into: 1) individual tools which require data preprocessing before sars-cov-2 lineages detection; 2) standalone pipelines that provide the entire analysis from raw data to lineages abundances detection
+- They can be divided into: 
+    - 1) individual tools which require data preprocessing before sars-cov-2 lineages detection;
+    - some of these tools were developed for sars-cov-2, like cojac and freyja
+    - some were repurposed to sars-cov-2, like kallisto (was initially developed for quantifying abundances of transcripts from RNA-Seq data)
+    - 2) standalone pipelines that provide the entire analysis from raw data to lineages abundances detection
+    - different pipelines uses different tools
+    - lineagespot uses minimap for mapping, freebayes for variant calling and snpeff for mutation annotation
+    - cowwid pipeline uses sub-pipeline called v-pipe to preprocess data and cojac to count lineages abundances
+    - pigx uses BWA for mapping, lofreq for variant calling and VEP for mutation annotation
 - state-of-the-art methods have differences in their goals, models, tools used and outputs
 
 ------
