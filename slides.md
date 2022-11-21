@@ -9,10 +9,14 @@ Master Thesis</small>
 <div style="text-align: left">
 <br><br>
 <small>
-<b>Author: </b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPolina Polunina<br>
+<!--<b>Author: </b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPolina Polunina<br>
 <b>Examiner: </b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspProf. Dr. Rolf Backofen<br>
 <b>Second Examiner: </b>&nbspProf. Dr. Wolfgang R. Hess<br>
-<b>Advisors: </b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDr. Bérénice Batut, Dr. Wolfgang Maier<br><br>
+<b>Advisors: </b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDr. Bérénice Batut, Dr. Wolfgang Maier<br><br>-->
+<b>Author: </b><br>Polina Polunina<br>
+<b>Examiner: </b><br>Prof. Dr. Rolf Backofen<br>
+<b>Second Examiner: </b><br>Prof. Dr. Wolfgang R. Hess<br>
+<b>Advisors: </b><br>Dr. Bérénice Batut, Dr. Wolfgang Maier<br><br>
 
 <b>Date:</b> 24.11.2022</small>
 </div>
@@ -205,6 +209,7 @@ Note:
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
 <div style="text-align: left">
+<small>
 
 Develop pipelines for SARS-CoV-2 wastewater data analysis that is:
 - complete
@@ -213,6 +218,7 @@ Develop pipelines for SARS-CoV-2 wastewater data analysis that is:
 - transparent
 - regular
 
+</small>
 </div>
 </span>
 <img class="fragment current-visible" data-fragment-index="0" src="img/intro/tasks-2.png" alt="drawing" width="500"/>
