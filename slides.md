@@ -200,14 +200,14 @@ Note:
 
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
-<small>Individual tools</small>
+<small>Individual tools</small><br>
 
-<img src="img/intro/prior-tools.png" alt="drawing" width="600"/>
+<img src="img/intro/prior-tools.png" alt="drawing" width="500"/>
 </span>
 <span class="fragment current-visible" data-fragment-index="0">
-<small>Standalone pipelines</small>
+<small>Standalone pipelines</small><br>
 
-<img src="img/intro/prior-pipelines.png" alt="drawing" width="600"/>
+<img src="img/intro/prior-pipelines.png" alt="drawing" width="500"/>
 </span>
 </div>
 
