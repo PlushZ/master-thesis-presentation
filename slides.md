@@ -201,11 +201,11 @@ Note:
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
 <small>Individual tools</small>
-<img src="img/intro/prior-tools.png" alt="drawing" width="800"/>
+<img src="img/intro/prior-tools.png" alt="drawing" width="400"/>
 </span>
 <span class="fragment current-visible" data-fragment-index="0">
 <small>Standalone pipelines</small>
-<img src="img/intro/prior-pipelines.png" alt="drawing" width="800"/>
+<img src="img/intro/prior-pipelines.png" alt="drawing" width="400"/>
 </span>
 </div>
 
