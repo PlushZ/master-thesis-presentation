@@ -405,14 +405,8 @@ Note:
 
 <small>Development and evaluation of Galaxy pipelines for detection of SARS-CoV-2 variants by genomic analysis of wastewater samples</small>
 <img src="img/summary/tasks-done-2.png" alt="drawing" width="500"/>
-
 <div style="text-align: left">
-<small>
-
-**Globally:** repurpose to other wastewater genomic surveillance
-
-</small>
-</div>
+<small><b>Globally:</b> repurpose to other wastewater genomic surveillance</small></div>
 
 Note:
 - as a summary, I want to return to the tasks that I set while working on the master thesis and again list what was done as well as the next steps
