@@ -198,7 +198,6 @@ Note:
 
 ### State-of-the-art
 
-<img src="img/intro/prior-methods.png" alt="Simplified table with state of the art methods" width="800"/>
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
 <small>Individual tools</small>
