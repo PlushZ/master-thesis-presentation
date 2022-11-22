@@ -80,7 +80,7 @@ Note:
 - A variety of surveillance techniques are available for SARS-CoV-2. 
 - Clinical testing is one of the most potent and widespread method for sars-cov-2 surveillance. 
 - Schematic diagram shows the process of detecting viruses by clinical surveillance, from the infection moment to bioinformatics data analysis
-- do not explain!
+- **do not explain!**
 
 ------
 
@@ -171,7 +171,7 @@ Note:
 - Schematic diagram shows the process of detecting viruses by WWS against clinical surveillance.
 - upper branch shows a clinical surveillance of sars-cov-2, from the infection moment to bioinformatics data analysis
 - lower branch, in turn, represents wastewater surveillance
-- Explain a bit
+- **do not explain!**
 
 ------
 
