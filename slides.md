@@ -187,6 +187,7 @@ Note:
     - 1) individual tools which require data preprocessing before sars-cov-2 lineages detection;
     - some of these tools were developed for sars-cov-2, like cojac and freyja
     - some were repurposed to sars-cov-2, like kallisto (was initially developed for quantifying abundances of transcripts from RNA-Seq data)
+    - **for this thesis COJAC and Freyja** were chosen because they have open source licence, they are available in Bioconda, they already showed decent results, and are focused on sars-cov-2 lineages abundances detection that can be implemented into Galaxy pipelines
     - 2) standalone pipelines that provide the entire analysis from raw data to lineages abundances detection
     - different pipelines uses different tools
     - lineagespot uses minimap for mapping, freebayes for variant calling and snpeff for mutation annotation
@@ -405,7 +406,13 @@ Note:
 <small>Development and evaluation of Galaxy pipelines for detection of SARS-CoV-2 variants by genomic analysis of wastewater samples</small>
 <img src="img/summary/tasks-done-2.png" alt="drawing" width="500"/>
 
+<div style="text-align: left">
+<small>
+
 **Globally:** repurpose to other wastewater genomic surveillance
+
+</small>
+</div>
 
 Note:
 - as a summary, I want to return to the tasks that I set while working on the master thesis and again list what was done as well as the next steps
@@ -427,3 +434,25 @@ Note:
 ---
 
 Thanks for your attention!
+
+------
+
+### Summary
+
+<small>Development and evaluation of Galaxy pipelines for detection of SARS-CoV-2 variants by genomic analysis of wastewater samples</small>
+<img src="img/summary/tasks-done-2.png" alt="drawing" width="500"/>
+
+<div style="text-align: left">
+<small>
+
+**Globally:** repurpose to other wastewater genomic surveillance
+
+</small>
+</div>
+
+Note:
+- as a summary, I want to return to the tasks that I set while working on the master thesis and again list what was done as well as the next steps
+- (opt) WorkflowHub is a registry for describing, sharing and publishing scientific computational workflows. The registry supports any workflow in its native repository. WorkflowHub aims to facilitate discovery and re-use of workflows in an accessible and interoperable way. This is achieved through extensive use of open standards and tools, including Common Workflow Language (CWL), RO-Crate, BioSchemas and TRS, in accordance with the FAIR principles.
+- (opt) FAIR Findability, Accessibility, Interoperability, and Reusability foundational principles.
+- poliovirus
+- In recent two years, increased public awareness of any suspicious virus, including poliovirus, and ubiquitous usage of wastewater surveillance of poliovirus are preventing any cases of paralysis following the recent re-emergence of polio in New York
