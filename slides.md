@@ -165,15 +165,34 @@ Note:
 <img src="img/intro/ww-process-ww.png" alt="drawing" width="1000"/>
 
 Note:
-- 1
-- wastewater surveillance is another surveillance method for sars-cov2
+- However, classical clinical sars-cov-2 surveillance has some **drawbacks**:
+    - it can **take long** to detect variants in samples as it needs the patient to get **symptoms** and come to be tested
+    - it's **costly** because involves **clinitians**
+- wastewater surveillance is another surveillance method for sars-cov2 that can be a **good solution** that does **not need clinitians** don't require patent to have **symptoms** to collect samples
 - wws has received extensive public attention as a passive monitoring system that complements clinical surveillance.
 - Schematic diagram shows the process of detecting viruses by WWS against clinical surveillance.
 - upper branch shows a clinical surveillance of sars-cov-2, from the infection moment to bioinformatics data analysis
 - lower branch, in turn, represents wastewater surveillance
-- **do not explain!**
+- **do not explain long!**
 
 ------
+
+<span class="menu-title" style="display: none">Aim of the thesis</span>
+
+### Aim of the thesis
+
+<img src="img/intro/tasks-2.png" alt="drawing" width="500"/>
+
+Note:
+- In this master thesis, I aim to provide a complete, accessible workflow based on Galaxy that can ensure data analysis reproducibility, transparency and regularity.
+- for this purpose, I identified the tasks that I intended to complete in this thesis
+- DEVELOP: I intended to adapt the Galaxy workflows developed for clinical data to process wastewater data, 
+    - taking subworkflows for preprocessing data, 
+    - improving these subworkflows.
+    - then, integrate existing tools for sars-cov-2 lineages abundances analysis in wastewater samples
+- then, test these workflows on mock datasets as well as real datasets, and benchmark them against each other and with other solution offered by other researchers.
+
+---
 
 <span class="menu-title" style="display: none">State-of-the-art</span>
 
@@ -194,23 +213,6 @@ Note:
     - cowwid pipeline uses sub-pipeline called v-pipe to preprocess data and cojac to count lineages abundances
     - pigx uses BWA for mapping, lofreq for variant calling and VEP for mutation annotation
 - state-of-the-art methods have differences in their goals, models, tools used and outputs
-
-------
-
-<span class="menu-title" style="display: none">Aim of the thesis</span>
-
-### Aim of the thesis
-
-<img src="img/intro/tasks-2.png" alt="drawing" width="500"/>
-
-Note:
-- In this master thesis, I aim to provide a complete, accessible workflow based on Galaxy that can ensure data analysis reproducibility, transparency and regularity.
-- for this purpose, I identified the tasks that I intended to complete in this thesis
-- DEVELOP: I intended to adapt the Galaxy workflows developed for clinical data to process wastewater data, 
-    - taking subworkflows for preprocessing data, 
-    - improving these subworkflows.
-    - then, integrate existing tools for sars-cov-2 lineages abundances analysis in wastewater samples
-- then, test these workflows on mock datasets as well as real datasets, and benchmark them against each other and with other solution offered by other researchers.
 
 ---
 
