@@ -199,6 +199,16 @@ Note:
 ### State-of-the-art
 
 <img src="img/intro/prior-methods.png" alt="Simplified table with state of the art methods" width="800"/>
+<div class="r-stack">
+<span class="fragment fade-out" data-fragment-index="0">
+<small>Individual tools</small>
+<img src="img/intro/prior-tools.png" alt="drawing" width="800"/>
+</span>
+<span class="fragment current-visible" data-fragment-index="0">
+<small>Standalone pipelines</small>
+<img src="img/intro/prior-pipelines.png" alt="drawing" width="800"/>
+</span>
+</div>
 
 Note:
 - various state-of-the-art methods already presented to the public
