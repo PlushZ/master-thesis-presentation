@@ -401,8 +401,10 @@ Note:
 <span class="menu-title" style="display: none">Discussion</span>
 
 ### Discussion
-#### Limitations 
 
+<div class="r-stack">
+<span class="fragment fade-out" data-fragment-index="0">
+Limitations
 <div style="text-align: left">
 
 **Freyja-based workflow:**
@@ -414,6 +416,25 @@ Note:
 - can misinterpret recombinants
 
 </div>
+</span>
+<span class="fragment current-visible" data-fragment-index="0">
+<small>Development and evaluation of Galaxy pipelines for detection of SARS-CoV-2 variants by genomic analysis of wastewater samples</small>
+<img src="img/summary/tasks-done-2.png" alt="drawing" width="450"/>
+<div style="text-align: left">
+<small><b>Globally:</b> repurpose to other wastewater genomic surveillance</small>
+</div>
+</span>
+</div>
+
+Note:
+- 1
+- limitations
+- 2
+- returning to the tasks that I set while working on the master thesis and again list what was done as well as the next steps
+- (opt) WorkflowHub is a registry for describing, sharing and publishing scientific computational workflows. The registry supports any workflow in its native repository. WorkflowHub aims to facilitate discovery and re-use of workflows in an accessible and interoperable way. This is achieved through extensive use of open standards and tools, including Common Workflow Language (CWL), RO-Crate, BioSchemas and TRS, in accordance with the FAIR principles.
+- (opt) FAIR Findability, Accessibility, Interoperability, and Reusability foundational principles.
+- poliovirus
+- In recent two years, increased public awareness of any suspicious virus, including poliovirus, and ubiquitous usage of wastewater surveillance of poliovirus are preventing any cases of paralysis following the recent re-emergence of polio in New York
 
 ---
 
@@ -421,15 +442,6 @@ Note:
 
 ### Summary
 
-<div class="r-stack">
-<span class="fragment fade-out" data-fragment-index="0">
-<small>Development and evaluation of Galaxy pipelines for detection of SARS-CoV-2 variants by genomic analysis of wastewater samples</small>
-<img src="img/summary/tasks-done-2.png" alt="drawing" width="450"/>
-<div style="text-align: left">
-<small><b>Globally:</b> repurpose to other wastewater genomic surveillance</small>
-</div>
-</span>
-<span class="fragment current-visible" data-fragment-index="0">
 <div style="text-align: left">
  
 - Identified two state-of-the-art tools for wastewater surveillance
@@ -443,16 +455,6 @@ Note:
     - Training materials
 
 </div>
-</span>
-
-</div>
-
-Note:
-- as a summary, I want to return to the tasks that I set while working on the master thesis and again list what was done as well as the next steps
-- (opt) WorkflowHub is a registry for describing, sharing and publishing scientific computational workflows. The registry supports any workflow in its native repository. WorkflowHub aims to facilitate discovery and re-use of workflows in an accessible and interoperable way. This is achieved through extensive use of open standards and tools, including Common Workflow Language (CWL), RO-Crate, BioSchemas and TRS, in accordance with the FAIR principles.
-- (opt) FAIR Findability, Accessibility, Interoperability, and Reusability foundational principles.
-- poliovirus
-- In recent two years, increased public awareness of any suspicious virus, including poliovirus, and ubiquitous usage of wastewater surveillance of poliovirus are preventing any cases of paralysis following the recent re-emergence of polio in New York
 
 ------
 
