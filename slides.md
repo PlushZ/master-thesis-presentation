@@ -445,7 +445,7 @@ Note:
 <div style="text-align: left">
  <small>
 
-- **Two workflows** for **clinical** data repurposed to **wastewater** data:
+- **Two workflows** for SARS-CoV-2 **clinical** data repurposed to **wastewater** data:
     - Ampliconic-Illumina
     - Metatranscriptomic-Illumina
 - **Freyja** and **COJAC** implemented into Galaxy
