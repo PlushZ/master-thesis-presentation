@@ -313,6 +313,7 @@ Note:
 <img src="img/results/singlin-bar-venn.png" alt="drawing" width="800"/>
 
 Note:
+- 1
 - **Barplot:**
 - I analyzed separately samples were **single lineage** was expected. 
 - compared results from **COJAC**-based and **Freyja**-based Galaxy workflows with **Lineagespot**.
@@ -326,6 +327,7 @@ Note:
 - **Venn upset diagram:**
 - intersections between sets of results and determined which samples were correctly detected by which tool (in terms of the lineages expected) and how similar the results were between tools.
 - Each column corresponds to a set of obtained results from certain tools (COJAC, Lineagespot, Freyja), and bar charts on top show the size of the set of tool’s results. 
+- 2
 - The first row in the figure is completely empty, while 1 sample is expected to be detected but was not. This specific sample is expected to contain only unknown synthetic lineage.
 
 ------
@@ -333,14 +335,17 @@ Note:
 ### Results on mock dataset
 #### Single lineage expected
 
-<img src="img/results/pc-singlin.png" alt="drawing" width="800"/>
+<img class="fragment fade-out" data-fragment-index="0" src="img/results/pc-singlin.png" alt="drawing" width="800"/>
+<img class="fragment current-visible" data-fragment-index="0" src="img/results/pc-singlin-sample52.png" alt="drawing" width="800"/>
 
 Note:
-- Parallel coordinates plot was generated for **22** samples where **single lineage** was expected.
+- 1
+- I looked at **lineage proportions** detected by Freyja and COJAC compared with expected proportion.
+- Plots were produced on **22** samples where **single lineage** was expected
 - One plot per lineage: Delta, BA.1, BA.2 
-- to show **lineage proportions** detected by Freyja and COJAC compared with expected proportion. 
 - The left axis represents the expected proportion of the lineage, the middle axis represents the proportion of the lineage detected by COJAC, while the right axis represents the proportion of the lineage detected by Freyja.
 - Overall, proportions of lineages expected and detected by COJAC and Freyja close to each other
+- 2
 - In one curious case:
     - for 1 sample, BA.1 lineage was not expected but COJAC detected its proportion close to 1.
     - This sample containg recombinant of all 3 lineages (Delta, BA.1, BA.2).
