@@ -19,7 +19,7 @@ Master Thesis</small>
 Note:
 - I want to welcome you all to the presentation of my master thesis 'Development bla-bla ..' which I worked on with the supervision of Dr. Bérénice Batut, Dr. Wolfgang Maier
 
----
+<!-- ---
 
 <span class="menu-title" style="display: none">Table of contents</span>
 
@@ -32,7 +32,7 @@ Note:
 - <span style="font-size:30px">**Discussion** (Limitations, Next steps)</span>
 - <span style="font-size:30px">**Summary**</span>
 
-</div>
+</div> -->
 
 ---
 
