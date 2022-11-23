@@ -102,8 +102,6 @@ Note:
 
 Note:
 - 1 
-- A variety of surveillance techniques are available for SARS-CoV-2. 
-- Clinical testing is one of the most potent and widespread method. 
 - Here is a simplified process that raughly represents sars-cov-2 surveillance. 
     - Sample collection
     - Library preparation that can vary depending on type of biological data and final objectives
