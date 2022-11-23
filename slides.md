@@ -317,16 +317,13 @@ Note:
 ------
 
 ### Results on mock dataset
+#### Single lineage expected
 
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
-<small>Single lineage expected</small><br>
-
 <img src="img/results/singlin-bar-venn.png" alt="drawing" width="1000"/>
 </span>
 <span class="fragment current-visible" data-fragment-index="0">
-<small>Single lineage expected</small><br>
-
 <img src="img/results/singlin-bar-venn-sample75.png" alt="drawing" width="1000"/>
 </span>
 </div>
@@ -352,17 +349,14 @@ Note:
 ------
 
 ### Results on mock dataset
+#### Single lineage expected
 
 <div class="r-stack">
 <span class="fragment fade-out" data-fragment-index="0">
-<small>Single lineage expected</small><br>
-
 <img src="img/results/pc-singlin.png" alt="drawing" width="800"/>
 </span>
 <span class="fragment current-visible" data-fragment-index="0">
-<small>Single lineage expected</small><br>
-
-<img src="img/results/pc-singlin-sample52.png" alt="drawing" width="800"/>
+<img src="img/results/pc-singlin_sample52.png" alt="drawing" width="800"/>
 </span>
 </div>
 
