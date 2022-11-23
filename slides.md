@@ -447,7 +447,9 @@ Note:
 <div style="text-align: left">
  <small>
 
-- Two workflows for **clinical** data repurposed to **wastewater** data
+- Two workflows for **clinical** data repurposed to **wastewater** data:
+    - Ampliconic-Illumina
+    - Metatranscriptomic-Illumina
 - **Freyja** and **COJAC** implemented into Galaxy
 - **Evaluation**:
     - Tested on **mock** and **real** data
