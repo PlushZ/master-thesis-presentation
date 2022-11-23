@@ -200,12 +200,12 @@ Note:
 <span class="fragment fade-out" data-fragment-index="0">
 <small>Individual tools</small><br>
 
-<img src="img/intro/prior-tools.png" alt="drawing" width="600"/>
+<img src="img/intro/prior-tools.png" alt="drawing" width="500"/>
 </span>
 <span class="fragment current-visible" data-fragment-index="0">
 <small>Individual tools</small><br>
 
-<img src="img/intro/prior-tools-zoom.png" alt="drawing" width="600"/>
+<img src="img/intro/prior-tools-zoom.png" alt="drawing" width="500"/>
 </span>
 </div>
 
@@ -226,7 +226,7 @@ Note:
 
 <small>Standalone pipelines</small><br>
 
-<img src="img/intro/prior-pipelines-2.png" alt="drawing" width="800"/>
+<img src="img/intro/prior-pipelines-2.png" alt="drawing" width="700"/>
 
 Note:
     - 2) standalone pipelines that provide the entire analysis from raw data to lineages abundances detection
