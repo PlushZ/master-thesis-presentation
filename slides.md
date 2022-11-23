@@ -232,7 +232,6 @@ Note:
     - 2) standalone pipelines that provide the entire analysis from raw data to lineages abundances detection
     - different pipelines uses different tools
     - lineagespot uses minimap for mapping, freebayes for variant calling and snpeff for mutation annotation
-    - cowwid pipeline uses sub-pipeline called v-pipe to preprocess data and cojac to count lineages abundances
     - pigx uses BWA for mapping, lofreq for variant calling and VEP for mutation annotation
 - state-of-the-art methods have differences in their goals, models, tools used and outputs
 
