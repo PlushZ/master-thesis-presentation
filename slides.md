@@ -447,12 +447,14 @@ Note:
 <div style="text-align: left">
  <small>
 
-- Two state-of-the-art tools for **wastewater surveillance** identified
-- **Freyja** and **COJAC** tools implemented into Galaxy
-- Two workflows for **clinical** data repurposed to **wastewater** data
-- Tested on **mock** and **real** data
-- Results benchmarked with **Lineagespot**
-- Workflows are **limited** by 
+- **Needs**: state-of-the-art tools for **wastewater surveillance**
+- **Implementation**:
+    - **Freyja** and **COJAC** into Galaxy
+    - Two workflows for **clinical** data repurposed to **wastewater** data
+- **Evaluation**:
+    - Tested on **mock** and **real** data
+    -  Benchmarked with **Lineagespot**
+- **Limitations**: 
     - detection of unexpected lineages
     - misinterpretation of recombinants
 - **Overall**: appropriate results
