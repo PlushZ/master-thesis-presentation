@@ -148,7 +148,7 @@ Note:
 
 ### Galaxy bots
 
-<img src="img/intro/bots.png" alt="drawing" width="800"/>
+<img src="img/intro/bots.png" alt="drawing" width="1000"/>
 <small style="position: absolute; right: 0%; font-size: 0.2em; bottom: -1%;">Source: galaxyproject.org/projects/covid19</small>
 
 Note:
@@ -442,8 +442,7 @@ Limitations
 </div>
 </span>
 <span class="fragment current-visible" data-fragment-index="0">
-<small>Development and evaluation of Galaxy pipelines for detection of SARS-CoV-2 variants by genomic analysis of wastewater samples</small>
-<img src="img/summary/tasks-done-2.png" alt="drawing" width="450"/>
+<img src="img/summary/tasks-done-2.png" alt="drawing" width="500"/>
 <div style="text-align: left">
 <small><b>Globally:</b> repurpose to other wastewater genomic surveillance</small>
 </div>
