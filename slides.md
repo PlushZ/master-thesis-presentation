@@ -442,12 +442,10 @@ Note:
 
 ### Summary
 
-<small>Development and evaluation of Galaxy pipelines for detection of SARS-CoV-2 variants by genomic analysis of wastewater samples</small>
-<div style="text-align: left">
 <div style="text-align: left">
  <small>
 
-- Two workflows for **clinical** data repurposed to **wastewater** data:
+- **Two workflows** for **clinical** data repurposed to **wastewater** data:
     - Ampliconic-Illumina
     - Metatranscriptomic-Illumina
 - **Freyja** and **COJAC** implemented into Galaxy
@@ -458,7 +456,7 @@ Note:
     - detection of unexpected lineages
     - misinterpretation of recombinants
 - **Overall**: promising results
-- **Next steps**: Publish on WorkflowHub, Connect to Galaxy bots, Training materials
+- **Next steps**: publish on WorkflowHub, connect to Galaxy bots, training materials
 
 </small>
 </div>
@@ -485,19 +483,18 @@ Thanks for your attention!
 <div style="text-align: left">
  <small>
 
-- Two state-of-the-art tools for **wastewater surveillance** identified
-- **Freyja** and **COJAC** tools implemented into Galaxy
-- Two workflows for **clinical** data repurposed to **wastewater** data
-- Tested on **mock** and **real** data
-- Results benchmarked with **Lineagespot**
-- Workflows are **limited** by 
+- **Two workflows** for **clinical** data repurposed to **wastewater** data:
+    - Ampliconic-Illumina
+    - Metatranscriptomic-Illumina
+- **Freyja** and **COJAC** implemented into Galaxy
+- **Evaluation**:
+    - Tested on **mock** and **real** data
+    - Benchmarked with **Lineagespot**
+- **Limitations**: 
     - detection of unexpected lineages
     - misinterpretation of recombinants
-- **Overall**: appropriate results
-- **Next steps:**
-    - Publish on WorkflowHub
-    - Connect to Galaxy bots
-    - Training materials
+- **Overall**: promising results
+- **Next steps**: publish on WorkflowHub, connect to Galaxy bots, training materials
 
 </small>
 </div>
