@@ -442,6 +442,8 @@ Note:
 
 ### Summary
 
+<small>Development and evaluation of Galaxy pipelines for detection of SARS-CoV-2 variants by genomic analysis of wastewater samples</small>
+<div style="text-align: left">
 <div style="text-align: left">
  <small>
 
