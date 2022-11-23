@@ -421,10 +421,30 @@ Note:
 
 ### Summary
 
+<div class="r-stack">
+<span class="fragment fade-out" data-fragment-index="0">
 <small>Development and evaluation of Galaxy pipelines for detection of SARS-CoV-2 variants by genomic analysis of wastewater samples</small>
 <img src="img/summary/tasks-done-2.png" alt="drawing" width="450"/>
 <div style="text-align: left">
 <small><b>Globally:</b> repurpose to other wastewater genomic surveillance</small>
+</div>
+</span>
+<span class="fragment current-visible" data-fragment-index="0">
+<div style="text-align: left">
+ 
+- Identified two state-of-the-art tools for wastewater surveillance
+- **Freyja** and **COJAC** tools implemented into Galaxy
+- Two workflows for **clinical** data repurposed to **wastewater** data
+- Tested on **mock** and **real** data
+- Results benchmarked with **Lineagespot**
+- **Next steps:**
+    - Publish on WorkflowHub
+    - Connect to Galaxy bots
+    - Training materials
+
+</div>
+</span>
+
 </div>
 
 Note:
