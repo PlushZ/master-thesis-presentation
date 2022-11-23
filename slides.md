@@ -443,17 +443,23 @@ Note:
 ### Summary
 
 <div style="text-align: left">
- 
-- Identified two state-of-the-art tools for wastewater surveillance
+ <small>
+
+- Two state-of-the-art tools for **wastewater surveillance** identified
 - **Freyja** and **COJAC** tools implemented into Galaxy
 - Two workflows for **clinical** data repurposed to **wastewater** data
 - Tested on **mock** and **real** data
 - Results benchmarked with **Lineagespot**
+- Workflows are **limited** by 
+    - detection of unexpected lineages
+    - misinterpretation of recombinants
+- **Overall**: appropriate results
 - **Next steps:**
     - Publish on WorkflowHub
     - Connect to Galaxy bots
     - Training materials
 
+</small>
 </div>
 
 ------
@@ -475,14 +481,22 @@ Thanks for your attention!
 ### Summary
 
 <small>Development and evaluation of Galaxy pipelines for detection of SARS-CoV-2 variants by genomic analysis of wastewater samples</small>
-<img src="img/summary/tasks-done-2.png" alt="drawing" width="450"/>
 <div style="text-align: left">
-<small><b>Globally:</b> repurpose to other wastewater genomic surveillance</small>
-</div>
+ <small>
 
-Note:
-- as a summary, I want to return to the tasks that I set while working on the master thesis and again list what was done as well as the next steps
-- (opt) WorkflowHub is a registry for describing, sharing and publishing scientific computational workflows. The registry supports any workflow in its native repository. WorkflowHub aims to facilitate discovery and re-use of workflows in an accessible and interoperable way. This is achieved through extensive use of open standards and tools, including Common Workflow Language (CWL), RO-Crate, BioSchemas and TRS, in accordance with the FAIR principles.
-- (opt) FAIR Findability, Accessibility, Interoperability, and Reusability foundational principles.
-- poliovirus
-- In recent two years, increased public awareness of any suspicious virus, including poliovirus, and ubiquitous usage of wastewater surveillance of poliovirus are preventing any cases of paralysis following the recent re-emergence of polio in New York
+- Two state-of-the-art tools for **wastewater surveillance** identified
+- **Freyja** and **COJAC** tools implemented into Galaxy
+- Two workflows for **clinical** data repurposed to **wastewater** data
+- Tested on **mock** and **real** data
+- Results benchmarked with **Lineagespot**
+- Workflows are **limited** by 
+    - detection of unexpected lineages
+    - misinterpretation of recombinants
+- **Overall**: appropriate results
+- **Next steps:**
+    - Publish on WorkflowHub
+    - Connect to Galaxy bots
+    - Training materials
+
+</small>
+</div>
