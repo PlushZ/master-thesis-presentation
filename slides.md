@@ -210,11 +210,13 @@ Note:
 </div>
 
 Note:
+- 1
 - various state-of-the-art methods already presented to the public
 - They can be divided into: 
     - 1) individual tools which require data preprocessing before sars-cov-2 lineages detection;
     - some of these tools were developed for sars-cov-2, like cojac and freyja
     - some were repurposed to sars-cov-2, like kallisto (was initially developed for quantifying abundances of transcripts from RNA-Seq data)
+    - 2
     - **for this thesis COJAC and Freyja** were chosen because they have open source licence, they are available in Bioconda, they already showed decent results, and are focused on sars-cov-2 lineages abundances detection that can be implemented into Galaxy pipelines
 
 ------
@@ -501,7 +503,7 @@ Thanks for your attention!
 
 ### Summary
 
-<small>Development and evaluation of Galaxy pipelines for detection of SARS-CoV-2 variants by genomic analysis of wastewater samples</small>
+<small><b>Development and evaluation of Galaxy pipelines for detection of SARS-CoV-2 variants by genomic analysis of wastewater samples</b></small>
 <div style="text-align: left">
  <small>
 
