@@ -203,9 +203,9 @@ Note:
 <img src="img/intro/prior-tools.png" alt="drawing" width="500"/>
 </span>
 <span class="fragment current-visible" data-fragment-index="0">
-<small>Standalone pipelines</small><br>
+<small>Individual tools</small><br>
 
-<img src="img/intro/prior-pipelines.png" alt="drawing" width="500"/>
+<img src="img/intro/prior-tools-zoom.png" alt="drawing" width="500"/>
 </span>
 </div>
 
@@ -216,6 +216,17 @@ Note:
     - some of these tools were developed for sars-cov-2, like cojac and freyja
     - some were repurposed to sars-cov-2, like kallisto (was initially developed for quantifying abundances of transcripts from RNA-Seq data)
     - **for this thesis COJAC and Freyja** were chosen because they have open source licence, they are available in Bioconda, they already showed decent results, and are focused on sars-cov-2 lineages abundances detection that can be implemented into Galaxy pipelines
+
+------
+
+
+### State-of-the-art
+
+<small>Standalone pipelines</small><br>
+
+<img src="img/intro/prior-pipelines-2.png" alt="drawing" width="500"/>
+
+Note:
     - 2) standalone pipelines that provide the entire analysis from raw data to lineages abundances detection
     - different pipelines uses different tools
     - lineagespot uses minimap for mapping, freebayes for variant calling and snpeff for mutation annotation
@@ -306,9 +317,19 @@ Note:
 ------
 
 ### Results on mock dataset
-#### Single lineage expected
 
-<img src="img/results/singlin-bar-venn.png" alt="drawing" width="800"/>
+<div class="r-stack">
+<span class="fragment fade-out" data-fragment-index="0">
+<small>Single lineage expected</small><br>
+
+<img src="img/results/singlin-bar-venn.png" alt="drawing" width="1000"/>
+</span>
+<span class="fragment current-visible" data-fragment-index="0">
+<small>Single lineage expected</small><br>
+
+<img src="img/results/singlin-bar-venn-sample75.png" alt="drawing" width="1000"/>
+</span>
+</div>
 
 Note:
 - 1
@@ -331,10 +352,19 @@ Note:
 ------
 
 ### Results on mock dataset
-#### Single lineage expected
 
-<img class="fragment fade-out" data-fragment-index="0" src="img/results/pc-singlin.png" alt="drawing" width="800"/>
-<img class="fragment current-visible" data-fragment-index="0" src="img/results/pc-singlin-sample52.png" alt="drawing" width="800"/>
+<div class="r-stack">
+<span class="fragment fade-out" data-fragment-index="0">
+<small>Single lineage expected</small><br>
+
+<img src="img/results/pc-singlin.png" alt="drawing" width="800"/>
+</span>
+<span class="fragment current-visible" data-fragment-index="0">
+<small>Single lineage expected</small><br>
+
+<img src="img/results/pc-singlin-sample52.png" alt="drawing" width="800"/>
+</span>
+</div>
 
 Note:
 - 1
