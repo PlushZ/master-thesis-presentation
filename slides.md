@@ -260,7 +260,8 @@ Note:
 - first wf was built for ampliconic input data
 - talk about extra steps and then branches (steps in branches)
 - wrappers were written with planemo (a command-line application for creating Galaxy tools, workflows, and deploying tools to Galaxy)
-- I put a lot of effort into creating the user interface of these tools in Galaxy so that they are available for use outside of these special workflows
+- I put **a lot of effort** into creating the **user interface** of these tools in Galaxy so that they are available for use outside of these special workflows
+- (opt) This step has 2 goals: 1 - learn the **diversity** in wastewater samples and find species that do not mutch to reference of sars-cov-2, 2 - to find reads that do match sars-cov-2 reference but are not aligned with **strict alignment tools**, then, stringency of alignment tools can be adjasted to find new variants
 
 ------
 
